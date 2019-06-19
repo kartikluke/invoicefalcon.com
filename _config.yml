@@ -1,1 +1,12 @@
+title: Invoice Falcon
+author: 622 Solutions
+email: invoicefalcon@gmail.com
+description: >
+  Beautiful, customisable invoices. Sent automatically.
+baseurl: ''
+url: 'invoicefalcon.com'
+header_pages:
+  - index.md
+  - faq.md
+  - policy.md
 theme: minima
