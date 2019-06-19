@@ -9,4 +9,10 @@ header_pages:
   - index.md
   - faq.md
   - policy.md
+  - about.md
+defaults:
+    - scope:
+        path: "assets/img"
+      values:
+        image: true
 theme: minima

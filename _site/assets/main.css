@@ -194,3 +194,29 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+.site-title { font-weight: 600; color: #1083ff !important; }
+
+.app-icon { float: left; margin-right: 15px; width: 56px; }
+
+.page-heading { text-align: center; margin-bottom: 30px; }
+
+.banner-image { margin-bottom: 30px; }
+
+.store-badge-container { margin-bottom: 90px; }
+.store-badge-container .store-badge-link { display: block; text-align: center; }
+.store-badge-container .store-badge-link .store-badge-image { height: 60px; }
+
+.features-container { display: flex; justify-content: space-between; margin-bottom: 30px; }
+.features-container .feature { text-align: center; width: 30%; }
+.features-container .feature .feature-image { width: 70%; border-radius: 15px; margin-bottom: 20px; }
+.features-container .feature .feature-title { font-weight: 600; }
+
+.testimonial { padding: 30px 0px 30px 0px; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada; text-align: center; margin-bottom: 60px; }
+
+.content .content-title { font-weight: 600; }
+
+.about-us-container { margin-top: 60px; display: flex; justify-content: space-between; }
+.about-us-container .person { width: 40%; text-align: center; }
+.about-us-container .person .person-image { width: 80%; border-radius: 50%; margin-bottom: 10px; }
+.about-us-container .person .person-name { font-weight: 600; }
