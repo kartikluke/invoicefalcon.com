@@ -84,6 +84,11 @@ Once you’ve identified the order, hover your mouse over it to see the print an
 <br/>
 <br/>
 <br/>
+### I'm not able to see the invoice when I click "Print" or "Download".
+This is most likely because your browser, by default, blocks popups and new tabs opened from the current page. An icon for this will be shown in the address bar. Simply click on the icon, and enable popups from our page or click on the link visible there to open the invoice.
+<br/>
+<br/>
+<br/>
 ### How much does Invoice Falcon cost?
 _Invoice Falcon is absolutely free. No hidden charges whatsoever._
 
