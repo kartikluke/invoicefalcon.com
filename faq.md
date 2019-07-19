@@ -84,15 +84,45 @@ Once you’ve identified the order, hover your mouse over it to see the print an
 <br/>
 <br/>
 <br/>
-### I'm not able to see the invoice when I click "Print" or "Download".
-This is most likely because your browser, by default, blocks popups and new tabs opened from the current page. An icon for this will be shown in the address bar. Simply click on the icon, and enable popups from our page or click on the link visible there to open the invoice.
+### How can I print or send invoices in bulk?
+To print or send invoices in bulk, select at least two or more orders from the ‘Orders’ tab in Invoice Falcon. Next, you’ll see two actions above the list, one titled “Print Invoices” and the other “Send Invoices”.
+
+Clicking on these buttons will print all the invoices and send it to the customers in bulk respectively.
+<br/>
+<br/>
+<br/>
+### Can I print or send the invoice directly from my Orders page on Shopify dashboard?
+Absolutely! Select the order you wish to print or send the invoice for. Then click “More Actions” under the order number and select “Print or Send with Invoice Falcon”. This will redirect you to our app and you’ll be able to print or send the invoice for the order from there.
 <br/>
 <br/>
 <br/>
 ### How much does Invoice Falcon cost?
-_Invoice Falcon is absolutely free. No hidden charges whatsoever._
+All features of Invoice Falcon are FREE for upto 50 orders per month.
 
-In the future, based on your feedback, we will be introducing new features to the app that will enable you to do more. Some of those features might have require a paid subscription. Whenever that happens, we will inform you upfront and transparently. We will never charge you without your knowledge.
+This means that you can print, send or download the invoice for an order as many times as you wish to, but the number of orders you can perform these invoice actions for is 50 every month. Your order limit will be reset every month, based on the date you first installed our app.
+
+To generate invoices for unlimited orders, we recommend that you upgrade to our Plus plan for just $10/month.
+<br/>
+<br/>
+<br/>
+### What is the Plus plan?
+Our Plus plan is designed to be your life-long partner in your invoicing needs. For just $10/month, here’s what you get -
+
+_Unlimited Invoicing_ - Send, print and download invoices for unlimited orders. No usage limits whatsoever!
+
+_Priority Customer Support_ - We’ll be available round the clock via live chat, email or phone for your issues and queries!
+
+_New Feature Access_ - All new features will be available to Plus subscribers first at no extra cost.
+<br/>
+<br/>
+<br/>
+### (FREE PLAN) If I send the invoice for an order in one month and re-send it again after the order limit is reset, is it counted towards that month’s limit?
+Nope. If you’ve printed or sent the invoice for an order once, you’ll be able to print or send it, as many times as you wish to, for the lifetime of your store.
+<br/>
+<br/>
+<br/>
+### I'm not able to see the invoice when I click "Print" or "Download".
+This is most likely because your browser, by default, blocks popups and new tabs opened from the current page. An icon for this will be shown in the address bar. Simply click on the icon, and enable popups from our page or click on the link visible there to open the invoice.
 <br/>
 <br/>
 <br/>
