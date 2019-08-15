@@ -96,12 +96,8 @@ Absolutely! Select the order you wish to print or send the invoice for. Then cli
 <br/>
 <br/>
 <br/>
-### How much does Invoice Falcon cost?
-All features of Invoice Falcon are FREE for upto 50 orders per month.
-
-This means that you can print, send or download the invoice for an order as many times as you wish to, but the number of orders you can perform these invoice actions for is 50 every month. Your order limit will be reset every month, based on the date you first installed our app.
-
-To generate invoices for unlimited orders, we recommend that you upgrade to our Plus plan for just $10/month.
+### How much does Invoice Printer Pro cost?
+All features of Invoice Printer Pro are absolutely FREE.
 <br/>
 <br/>
 <br/>
