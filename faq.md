@@ -3,11 +3,11 @@ title: FAQ
 url: '/faq'
 ---
 
-Thank you for installing Invoice Falcon! If you have a query or issue that we haven't covered here, feel free to contact us via live chat or email.
+Thank you for installing Invoice Printer Pro! If you have a query or issue that we haven't covered here, feel free to contact us via live chat or email.
 <br/>
 <br/>
 <br/>
-### How do I install Invoice Falcon?
+### How do I install Invoice Priner Pro?
 Navigate to our app on the Shopify App Store by clicking on this link - [https://apps.shopify.com/invoice-falcon](https://apps.shopify.com/invoice-falcon)
 
 Next, click "**Add App**" button on the page and follow the simple instructions to install the app on your store.
@@ -20,21 +20,21 @@ With Automatic Invoicing enabled, customers who place orders on your store will 
 <br/>
 <br/>
 ### How do I enable or disable Automatic Invoicing?
-To enable Automatic Invoicing, click the “Settings” tab on the Invoice Falcon navigation bar and locate the Automatic Invoicing section. Click on the “Enable” button in the toggle and you’ll see a message notifying you that Automatic Invoicing has been enabled.
+To enable Automatic Invoicing, click the “Settings” tab on the Invoice Printer Pro navigation bar and locate the Automatic Invoicing section. Click on the “Enable” button in the toggle and you’ll see a message notifying you that Automatic Invoicing has been enabled.
 
-While we encourage you to leave Automatic Invoicing enabled so that you get the possible experience with Invoice Falcon, you can disable it at anytime by following the same instructions above and clicking “Disable” in the toggle.
+While we encourage you to leave Automatic Invoicing enabled so that you get the possible experience with Invoice Printer Pro, you can disable it at anytime by following the same instructions above and clicking “Disable” in the toggle.
 <br/>
 <br/>
 <br/>
 ### How can I customize the invoice?
-With Invoice Falcon, you can send an invoice that truly reflects your brand. To start customising your invoice, click the “Customize Invoice” tab on the Invoice Falcon navigation bar.
+With Invoice Printer Pro, you can send an invoice that truly reflects your brand. To start customising your invoice, click the “Customize Invoice” tab on the Invoice Printer Pro navigation bar.
 
 In this page, you’ll see a preview of your invoice on the left. The contents of the invoice are based on a sample order & shop, so that you can visualize the invoice that’ll be sent out. On the right, you’ll find a section to select the element of the invoice that you wish to customize. Click on any one of them to begin customizing your invoice.
 <br/>
 <br/>
 <br/>
 ### How can I change the colors of the invoice?
-To change the color scheme of your invoice, click “Customize Invoice” tab in the Invoice Falcon navigation bar and then select “Color Scheme” in the right section of the page.
+To change the color scheme of your invoice, click “Customize Invoice” tab in the Invoice Printer Pro navigation bar and then select “Color Scheme” in the right section of the page.
 
 Here, you can select a pre-defined color from the list of colors provided. If you’d like to select a color yourself, click “Custom” and set the color with the color picker.
 
@@ -43,7 +43,7 @@ After you’ve selected a color, click “Save Changes” and your color will be
 <br/>
 <br/>
 ### How can I place my store’s logo on the invoice?
-To place your logo on your invoice, click “Customize Invoice” tab in the Invoice Falcon navigation bar and then select “Logo” in the right section of the page.
+To place your logo on your invoice, click “Customize Invoice” tab in the Invoice Printer Pro navigation bar and then select “Logo” in the right section of the page.
 
 Here, you can upload your store’s logo by clicking on “Select File”. Once the upload is complete, you will be notified and the invoice preview will automatically refresh with the updated logo.
 
@@ -54,7 +54,7 @@ After you’ve uploaded your logo, click “Save Changes” and your logo will b
 <br/>
 <br/>
 ### How can I add a custom message to the invoice?
-To add a custom message to your invoice, click “Customize Invoice” tab in the Invoice Falcon navigation bar and then select “Message” in the right section of the page.
+To add a custom message to your invoice, click “Customize Invoice” tab in the Invoice Printer Pro navigation bar and then select “Message” in the right section of the page.
 
 Here, you can type a message upto 500 characters long in the field provided.
 
@@ -65,7 +65,7 @@ After you’ve added your message, click “Save Changes” and your message wil
 <br/>
 <br/>
 ### How can I add my social media links to the invoice?
-To add your social media handle to the invoice, click “Customize Invoice” tab in the Invoice Falcon navigation bar and then select “Social Media” in the right section of the page.
+To add your social media handle to the invoice, click “Customize Invoice” tab in the Invoice Printer Pro navigation bar and then select “Social Media” in the right section of the page.
 
 Here, you can provide the handle or the URL to your Facebook, Instagram and Twitter presence.
 
@@ -78,21 +78,21 @@ After you’ve added your social media, click “Save Changes” and your social
 ### Can I manually print or send the invoice for an order?
 Yes, you can.
 
-Click the “Orders” tab in the Invoice Falcon navigation bar. From here, you can select the order you wish to send/print the invoice for. You can also search for the order with the search bar provided above the list of orders.
+Click the “Orders” tab in the Invoice Printer Pro navigation bar. From here, you can select the order you wish to send/print the invoice for. You can also search for the order with the search bar provided above the list of orders.
 
 Once you’ve identified the order, hover your mouse over it to see the print and send actions. Or you can click on the order to view the invoice and then print or send it.
 <br/>
 <br/>
 <br/>
 ### How can I print or send invoices in bulk?
-To print or send invoices in bulk, select at least two or more orders from the ‘Orders’ tab in Invoice Falcon. Next, you’ll see two actions above the list, one titled “Print Invoices” and the other “Send Invoices”.
+To print or send invoices in bulk, select at least two or more orders from the ‘Orders’ tab in Invoice Printer Pro. Next, you’ll see two actions above the list, one titled “Print Invoices” and the other “Send Invoices”.
 
 Clicking on these buttons will print all the invoices and send it to the customers in bulk respectively.
 <br/>
 <br/>
 <br/>
 ### Can I print or send the invoice directly from my Orders page on Shopify dashboard?
-Absolutely! Select the order you wish to print or send the invoice for. Then click “More Actions” under the order number and select “Print or Send with Invoice Falcon”. This will redirect you to our app and you’ll be able to print or send the invoice for the order from there.
+Absolutely! Select the order you wish to print or send the invoice for. Then click “More Actions” under the order number and select “Print or Send with Invoice Printer Pro”. This will redirect you to our app and you’ll be able to print or send the invoice for the order from there.
 <br/>
 <br/>
 <br/>
@@ -122,7 +122,7 @@ This is most likely because your browser, by default, blocks popups and new tabs
 <br/>
 <br/>
 <br/>
-### I need help with my Invoice Falcon setup. How can I contact you?
+### I need help with my Invoice Printer Pro setup. How can I contact you?
 Reach out to us on live chat by clicking on the button in the bottom right corner of your screen.
 
-Alternatively, you can also reach us from your Apps dashboard or send an email to [invoicefalcon@gmail.com](mailto:invoicefalcon@gmail.com).
+Alternatively, you can also reach us from your Apps dashboard or send an email to [invoicefalcon.shopify@gmail.com](mailto:invoicefalcon.shopify@gmail.com).
