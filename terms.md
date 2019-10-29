@@ -13,7 +13,7 @@ If you create an account in Invoice Printer Pro, you are responsible for maintai
 ### Backups
 We are not responsible for Content residing in Invoice Printer Pro. In no event shall we be held liable for any loss of any Content. It is your sole responsibility to maintain appropriate backup of your Content. Notwithstanding the foregoing, on some occasions and in certain circumstances, with absolutely no obligation, we may be able to restore some or all of your data that has been deleted as of a certain date and time when we may have backed up data for our own purposes. We make no guarantee that the data you need will be available.
 
-### Links to other mobile applications
+### Links to other websites and applications
 Although this Web Application may link to other applications or websites, we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any such linked entity, unless specifically stated herein. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any businesses or individuals or the content of their entities. We do not assume any responsibility or liability for the actions, products, services, and content of any other third-parties. You should carefully review the legal statements and other conditions of use of any such application or website which you access through a link from Invoice Printer Pro. Your linking to any other off-site applications or websites is at your own risk.
 
 ### Prohibited uses
