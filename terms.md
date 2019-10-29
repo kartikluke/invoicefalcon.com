@@ -1,9 +1,7 @@
 ---
-title: Terms of usage
+title: Terms & Conditions
 url: '/terms'
 ---
-
-### Terms and Conditions
 
 These terms and conditions ("Terms", "Agreement") are an agreement between 622 Solutions (“Shopify Application Developer", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the Invoice Printer Pro (https://app.invoicefalcon.com) and any of its products or services (collectively, “Web Application" or "Services").
 
