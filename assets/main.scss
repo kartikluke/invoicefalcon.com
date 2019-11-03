@@ -4,6 +4,16 @@
 
 @import "minima";
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  max-width: 80% !important;
+}
+
 .site-title {
   font-weight: 600;
   color: #1083ff !important;;
@@ -15,29 +25,49 @@
   width: 56px;
 }
 
-.page-heading {
-  text-align: center;
-  margin-bottom: 30px;
-}
+.home-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
 
-.banner-image {
-  margin-bottom: 30px;
-}
+  .home-wrapper-header {
+    min-width: 60%;
 
-.store-badge-container {
-  margin-bottom: 90px;
-
-  .store-badge-link {
-    display: block;
-    text-align: center;
-
-    .store-badge-image {
-      height: 60px;
+    .page-heading {
+      margin-bottom: 30px;
+      font-family: 'Poppins', sans-serif !important;
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 4rem;
+      color: #1083ff;
     }
+
+    .store-badge-container {
+      margin-top: 50px;
+      margin-bottom: 90px;
+
+      .store-badge-link {
+        display: block;
+
+        .store-badge-image {
+          height: 60px;
+        }
+      }
+    }
+
   }
+
+  .banner-image {
+    width: 100%;
+  }
+
 }
+
 
 .features-container {
+  border-top: 1px solid #dadada;
+  padding: 3rem 0px 3rem 0px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -47,9 +77,9 @@
     width: 30%;
 
     .feature-image {
-      width: 70%;
+      width: 90%;
       border-radius: 15px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     .feature-title {
@@ -59,7 +89,7 @@
 }
 
 .testimonial {
-  padding: 30px 0px 30px 0px;
+  padding: 3rem 0px 3rem 0px;
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   text-align: center;
