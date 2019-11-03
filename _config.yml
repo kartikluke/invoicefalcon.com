@@ -2,12 +2,11 @@ title: Invoice Printer Pro
 author: 622 Solutions
 email: invoicefalcon.shopify@gmail.com
 description: >
-  Beautiful invoices. Sent automatically.
+  Beautiful, professional invoices. Sent automatically.
 baseurl: ''
 url: 'invoicefalcon.com'
 header_pages:
   - index.md
-  - help.md
   - about.md
 footer_links:
   faq:

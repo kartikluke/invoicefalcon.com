@@ -1,11 +1,12 @@
 ---
 title: Home
 url: '/'
+list_title: 'Help Center'
 ---
 
 <div class="home-wrapper">
   <div class="home-wrapper-header">
-    <h1 class="page-heading">Beautiful invoices.<br/>Sent automatically.</h1>
+    <h1 class="page-heading">Beautiful, professional invoices.<br/>Sent automatically.</h1>
     <p>Create, design, print, download and send beautiful, tax-compliant invoices to your customers automatically with Invoice Printer Pro.</p>
     <div class="store-badge-container">
       <a href="https://apps.shopify.com/invoice-falcon" class="store-badge-link">
