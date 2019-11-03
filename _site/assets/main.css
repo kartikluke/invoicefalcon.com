@@ -1,4 +1,5 @@
 /** Reset some basic elements */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap");
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
@@ -195,25 +196,30 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+body { font-family: 'Poppins', sans-serif; color: #3e3e3e; }
+
+.wrapper { max-width: 80% !important; }
+
 .site-title { font-weight: 600; color: #1083ff !important; }
 
 .app-icon { float: left; margin-right: 15px; width: 56px; }
 
-.page-heading { text-align: center; margin-bottom: 30px; }
+.home-wrapper { margin-top: 3rem; margin-bottom: 3rem; display: flex; flex-direction: row; }
+.home-wrapper .home-wrapper-header { min-width: 60%; }
+.home-wrapper .home-wrapper-header .page-heading { margin-bottom: 30px; font-family: 'Poppins', sans-serif !important; font-weight: 600; font-size: 2.5rem; line-height: 4rem; color: #1083ff; }
+.home-wrapper .home-wrapper-header .store-badge-container { margin-top: 50px; margin-bottom: 90px; }
+.home-wrapper .home-wrapper-header .store-badge-container .store-badge-link { display: block; }
+.home-wrapper .home-wrapper-header .store-badge-container .store-badge-link .store-badge-image { height: 60px; }
+.home-wrapper .banner-image { width: 100%; }
 
-.banner-image { margin-bottom: 30px; }
-
-.store-badge-container { margin-bottom: 90px; }
-.store-badge-container .store-badge-link { display: block; text-align: center; }
-.store-badge-container .store-badge-link .store-badge-image { height: 60px; }
-
-.features-container { display: flex; justify-content: space-between; margin-bottom: 30px; }
+.features-container { border-top: 1px solid #dadada; padding: 3rem 0px 3rem 0px; display: flex; justify-content: space-between; margin-bottom: 30px; }
 .features-container .feature { text-align: center; width: 30%; }
-.features-container .feature .feature-image { width: 70%; border-radius: 15px; margin-bottom: 20px; }
+.features-container .feature .feature-image { width: 90%; border-radius: 15px; margin-bottom: 30px; }
 .features-container .feature .feature-title { font-weight: 600; }
 
-.testimonial { padding: 30px 0px 30px 0px; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada; text-align: center; margin-bottom: 60px; }
+.testimonial { padding: 3rem 0px 3rem 0px; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada; text-align: center; margin-bottom: 60px; }
 
+.content { padding-bottom: 3rem; border-bottom: 1px solid #dadada; margin-bottom: 3rem; }
 .content .content-title { font-weight: 600; }
 
 .about-us-container { margin-top: 60px; display: flex; justify-content: space-between; }

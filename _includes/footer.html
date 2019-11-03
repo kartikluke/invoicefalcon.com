@@ -17,6 +17,16 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            <br/>
+            {%- if site.footer_links.faq -%}
+            <li><a class="u-email" href="{{ site.footer_links.faq.link }}">{{ site.footer_links.faq.title }}</a></li>
+            {%- endif -%}
+            {%- if site.footer_links.privacy -%}
+            <li><a class="u-email" href="{{ site.footer_links.privacy.link }}">{{ site.footer_links.privacy.title }}</a></li>
+            {%- endif -%}
+            {%- if site.footer_links.terms -%}
+            <li><a class="u-email" href="{{ site.footer_links.terms.link }}">{{ site.footer_links.terms.title }}</a></li>
+            {%- endif -%}
         </ul>
       </div>
 
