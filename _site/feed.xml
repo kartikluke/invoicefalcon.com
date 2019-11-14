@@ -1,2 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-03T22:14:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-14T17:08:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Design Shopify Invoice</title><link href="http://localhost:4000/2019/11/14/design-shopify-invoice.html" rel="alternate" type="text/html" title="Design Shopify Invoice" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/design-shopify-invoice</id><content type="html" xml:base="http://localhost:4000/2019/11/14/design-shopify-invoice.html"></content><author><name>622 Solutions</name></author><summary type="html"></summary></entry><entry><title type="html">Set the language for your invoices</title><link href="http://localhost:4000/2019/11/14/invoice-email-language.html" rel="alternate" type="text/html" title="Set the language for your invoices" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/invoice-email-language</id><content type="html" xml:base="http://localhost:4000/2019/11/14/invoice-email-language.html">&lt;p&gt;Invoice Printer Pro is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice &amp;amp; Email Language&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/language.png&quot; alt=&quot;an image alt text&quot; title=&quot;Language Options in Invoice Printer Pro&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Invoice Printer Pro supports 21 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Romanian, Portuguese, Slovak, Slovenian&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Invoice Language&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+This is the language of the invoice. Click on the dropdown to select your language.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Email Language&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+This is the language that the email will sent in. Click on the dropdown to select your language.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Send Invoice based on customer's language&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Your Shopify order information also includes the language and region of your customer. Enable this option, if you want Invoice Printer Pro to automatically detect, and send the invoice based on your customer’s language.&lt;/p&gt;
+
+&lt;p&gt;(1) This option is supported only for the languages supported by our application.&lt;/p&gt;
+
+&lt;p&gt;(2) If we are unable to automatically detect the language of your customer, the invoice will be sent based on the language selected in &lt;em&gt;Invoice Language&lt;/em&gt; &amp;amp; &lt;em&gt;Email Language&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you’ve selected your preferred settings, make sure to click the &lt;strong&gt;Save Changes&lt;/strong&gt; button. If you’ve created any invoices before setting your language, they will be automatically updated with the new language.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;my-language-isnt-listed-what-do-i-do&quot;&gt;My language isn’t listed. What do I do?&lt;/h3&gt;
+&lt;p&gt;Don’t worry! You have a couple of options here -&lt;/p&gt;
+
+&lt;p&gt;(1) Contact us 24*7 via live chat or email at invoicefalcon.shopify@gmail.com, and we’ll add it for you. :)&lt;/p&gt;
+
+&lt;p&gt;(2) You can also set up your own language for the invoice without contacting us. Head back to the &lt;strong&gt;Invoice Settings&lt;/strong&gt; page, and find the section named &lt;strong&gt;Edit Titles &amp;amp; Labels&lt;/strong&gt;. In this section, you can add your own translation for each header, title &amp;amp; label in the invoice.&lt;/p&gt;</content><author><name>622 Solutions</name></author><summary type="html">Invoice Printer Pro is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.</summary></entry></feed>
