@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-14T17:08:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Design Shopify Invoice</title><link href="http://localhost:4000/2019/11/14/design-shopify-invoice.html" rel="alternate" type="text/html" title="Design Shopify Invoice" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/design-shopify-invoice</id><content type="html" xml:base="http://localhost:4000/2019/11/14/design-shopify-invoice.html"></content><author><name>622 Solutions</name></author><summary type="html"></summary></entry><entry><title type="html">Set the language for your invoices</title><link href="http://localhost:4000/2019/11/14/invoice-email-language.html" rel="alternate" type="text/html" title="Set the language for your invoices" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/invoice-email-language</id><content type="html" xml:base="http://localhost:4000/2019/11/14/invoice-email-language.html">&lt;p&gt;Invoice Printer Pro is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-14T18:45:07+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Add links to invoices in Customer account page</title><link href="http://localhost:4000/2019/11/14/customer-invoice-download.html" rel="alternate" type="text/html" title="Add links to invoices in Customer account page" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/customer-invoice-download</id><content type="html" xml:base="http://localhost:4000/2019/11/14/customer-invoice-download.html">&lt;p&gt;With Invoice printer Pro, you can add a link to your customer’s account page so that they can download the invoice for their orders anytime.&lt;/p&gt;
+
+&lt;p&gt;When your customer clicks on this link, they will be redirected to a PDF version of the invoice &amp;amp; they can choose to print the invoice or download it to their device.&lt;/p&gt;
+
+&lt;p&gt;To add the links to your customer account page, you will need to make a few small changes to your theme files -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Online Store&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Themes&lt;/strong&gt; in your Shopify admin dashboard.&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Actions&lt;/strong&gt;, and then click &lt;strong&gt;Edit Code&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Next, you’ll need to enter this snippet of code into your theme files.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;templates---customersaccountliquid&quot;&gt;Templates -&amp;gt; customers/account.liquid&lt;/h4&gt;
+&lt;p&gt;Here, you’ll need to add a new column called “Download Invoice” for each order. Each row in this column will have a link and clicking on the link will take the customer to a new tab with their invoice ready to print or download.&lt;/p&gt;
+
+&lt;p&gt;Look for this line of code in the file - &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td data-label=&quot;customer.orders.total&quot;&amp;gt;{{ order.total_price | money }}&amp;lt;/td&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Press Enter and right underneath this line, add the below snippet of code to the file -&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&amp;lt;a href='https://app.invoicefalcon.com/pdfs/{{ order.id }}.pdf?shopify_domain=invoicefalconstore.myshopify.com'&amp;gt;Download Invoice&amp;lt;/a&amp;gt;&amp;lt;/td&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note - &lt;em&gt;Replace ‘invoicefalconstore.myshopify.com’ with your store’s myshopify link.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;em&gt;Save&lt;/em&gt; and that’s it! Your customer account page will be automatically updated to include the new column. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><summary type="html">With Invoice printer Pro, you can add a link to your customer’s account page so that they can download the invoice for their orders anytime.</summary></entry><entry><title type="html">Set the language for your invoices</title><link href="http://localhost:4000/2019/11/14/invoice-email-language.html" rel="alternate" type="text/html" title="Set the language for your invoices" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/invoice-email-language</id><content type="html" xml:base="http://localhost:4000/2019/11/14/invoice-email-language.html">&lt;p&gt;Invoice Printer Pro is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.&lt;/p&gt;
 
 &lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice &amp;amp; Email Language&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
