@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-14T18:45:07+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Add links to invoices in Customer account page</title><link href="http://localhost:4000/2019/11/14/customer-invoice-download.html" rel="alternate" type="text/html" title="Add links to invoices in Customer account page" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/customer-invoice-download</id><content type="html" xml:base="http://localhost:4000/2019/11/14/customer-invoice-download.html">&lt;p&gt;With Invoice printer Pro, you can add a link to your customer’s account page so that they can download the invoice for their orders anytime.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-16T13:22:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Add a link to the invoice in Order Confirmation Email</title><link href="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html" rel="alternate" type="text/html" title="Add a link to the invoice in Order Confirmation Email" /><published>2019-11-16T00:00:00+05:30</published><updated>2019-11-16T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/16/order-confirmation-email-invoice</id><content type="html" xml:base="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html">&lt;p&gt;When a customer places an order on your store, Shopify sends an email, called the &lt;em&gt;Order Confirmation&lt;/em&gt; email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.&lt;/p&gt;
+
+&lt;p&gt;With Invoice Printer Pro, you can place a link to the invoice for their order in this email. When customers click on this link, they will be redirected to a PDF invoice that they can choose to print or download to their device.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/order-confirmed.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;To add this link to your Order Confirmation Email, you will need to add a tiny snippet of code to your Order Confirmation Email Template.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;In your Shopify admin dashboard, click &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Notifications&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Here, click on the &lt;strong&gt;Order Confirmed&lt;/strong&gt; notification. You will be directed to a page that lets you edit the the template.&lt;/li&gt;
+  &lt;li&gt;Open this video guide to find out where exactly you should paste the snippet of code - &lt;a href=&quot;https://www.youtube.com/watch?v=QxK2zmv671U&quot;&gt;Video Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Finally, copy and paste this code to the template -&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- Invoice Printer Pro Email Code START --&amp;gt;&amp;lt;table class='container' style='margin-bottom:25px'&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;h4&amp;gt;&amp;lt;a href='https://app.invoicefalcon.com/pdfs/{{ id }}.pdf?shopify_domain=invoicefalconstore.myshopify.com'&amp;gt;Download Invoice&amp;lt;/a&amp;gt;&amp;lt;/h4&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/table&amp;gt;&amp;lt;!-- Invoice Printer Pro Email Code END --&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Note - &lt;em&gt;Replace ‘invoicefalconstore.myshopify.com’ with your store’s myshopify link.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;em&gt;Save&lt;/em&gt; and that’s it! Your Order Confirmation email will now include a link to the invoice of that order. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><summary type="html">When a customer places an order on your store, Shopify sends an email, called the Order Confirmation email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.</summary></entry><entry><title type="html">Add links to invoices in Customer account page</title><link href="http://localhost:4000/2019/11/14/customer-invoice-download.html" rel="alternate" type="text/html" title="Add links to invoices in Customer account page" /><published>2019-11-14T00:00:00+05:30</published><updated>2019-11-14T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/14/customer-invoice-download</id><content type="html" xml:base="http://localhost:4000/2019/11/14/customer-invoice-download.html">&lt;p&gt;With Invoice printer Pro, you can add a link to your customer’s account page so that they can download the invoice for their orders anytime.&lt;/p&gt;
 
 &lt;p&gt;When your customer clicks on this link, they will be redirected to a PDF version of the invoice &amp;amp; they can choose to print the invoice or download it to their device.&lt;/p&gt;
 
