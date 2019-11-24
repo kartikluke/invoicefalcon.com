@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-16T13:22:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Add a link to the invoice in Order Confirmation Email</title><link href="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html" rel="alternate" type="text/html" title="Add a link to the invoice in Order Confirmation Email" /><published>2019-11-16T00:00:00+05:30</published><updated>2019-11-16T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/16/order-confirmation-email-invoice</id><content type="html" xml:base="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html">&lt;p&gt;When a customer places an order on your store, Shopify sends an email, called the &lt;em&gt;Order Confirmation&lt;/em&gt; email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-24T13:49:57+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Printer Pro</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Set a numbering sequence for your invoices</title><link href="http://localhost:4000/2019/11/23/invoice-numbers.html" rel="alternate" type="text/html" title="Set a numbering sequence for your invoices" /><published>2019-11-23T00:00:00+05:30</published><updated>2019-11-23T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/23/invoice-numbers</id><content type="html" xml:base="http://localhost:4000/2019/11/23/invoice-numbers.html">&lt;p&gt;With Invoice Printer Pro, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice Number, Date &amp;amp; Copies&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/number.png&quot; alt=&quot;an image alt text&quot; title=&quot;Invoice number options in Invoice Printer Pro&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Same as order number&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+By default, Invoice Printer Pro will use the order number (or draft order number) as the invoice number. Invoices that are created manually will follow their own numbering sequence.&lt;/p&gt;
+
+&lt;p&gt;If you want to use the same number as your order, &lt;em&gt;but you’d also like to have a prefix or identifier to indicate that the document is an invoice&lt;/em&gt; (as may be required by law in some countries), enter the prefix in the &lt;strong&gt;Invoice Number Prefix&lt;/strong&gt; field.&lt;/p&gt;
+
+&lt;p&gt;Example - If your order number is &lt;strong&gt;#1080&lt;/strong&gt; and the invoice number prefix is &lt;strong&gt;IFS&lt;/strong&gt;, the invoice number will be &lt;strong&gt;IFS#1080&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Custom numbering sequence&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+When you set up a custom numbering sequence, the invoices will have a number that are completely different from the order numbers for which they are created.&lt;/p&gt;
+
+&lt;p&gt;To set this up, enter a number of your choice in the &lt;strong&gt;Next Invoice Number&lt;/strong&gt; field. You can enter a number like ‘10001’ or ‘ABGN12034’. Make sure to click ‘Save Changes after entering this number.&lt;/p&gt;
+
+&lt;p&gt;Invoice numbers for invoices created before this change will not be updated automatically. If you’d like to change numbers for previous invoices, please contact us via live chat or email.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+Note - &lt;em&gt;If you want to stop using a custom numbering sequence, remove the number from the Next Invoice Number field and click ‘Save Changes’.&lt;/em&gt;&lt;/p&gt;</content><author><name>622 Solutions</name></author><summary type="html">With Invoice Printer Pro, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.</summary></entry><entry><title type="html">Add a link to the invoice in Order Confirmation Email</title><link href="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html" rel="alternate" type="text/html" title="Add a link to the invoice in Order Confirmation Email" /><published>2019-11-16T00:00:00+05:30</published><updated>2019-11-16T00:00:00+05:30</updated><id>http://localhost:4000/2019/11/16/order-confirmation-email-invoice</id><content type="html" xml:base="http://localhost:4000/2019/11/16/order-confirmation-email-invoice.html">&lt;p&gt;When a customer places an order on your store, Shopify sends an email, called the &lt;em&gt;Order Confirmation&lt;/em&gt; email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.&lt;/p&gt;
 
 &lt;p&gt;With Invoice Printer Pro, you can place a link to the invoice for their order in this email. When customers click on this link, they will be redirected to a PDF invoice that they can choose to print or download to their device.&lt;/p&gt;
 
