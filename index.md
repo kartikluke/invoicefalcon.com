@@ -1,5 +1,5 @@
 ---
-title: Beautiful, professional invoices for Shopify
+title: Home
 url: '/'
 list_title: 'Help Center'
 ---
