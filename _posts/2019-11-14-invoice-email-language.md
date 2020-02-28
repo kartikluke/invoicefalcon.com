@@ -3,13 +3,13 @@ layout: post
 title:  "Set the language for your invoices"
 ---
 
-Invoice Printer Pro is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.
+Invoice Falcon is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.
 
 Click on **Invoice Settings** in the left menu bar of our application & click on **Invoice & Email Language** tab in this page. You'll see a few settings that look like this -
 
-![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/language.png "Language Options in Invoice Printer Pro")
+![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/language.png "Language Options in Invoice Falcon")
 
-Invoice Printer Pro supports 21 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Romanian, Portuguese, Slovak, Slovenian
+Invoice Falcon supports 21 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Romanian, Portuguese, Slovak, Slovenian
 
 <br/>
 **<u>Invoice Language</u>**
@@ -24,7 +24,7 @@ This is the language that the email will sent in. Click on the dropdown to selec
 <br/>
 **<u>Send Invoice based on customer's language</u>**
 <br/>
-Your Shopify order information also includes the language and region of your customer. Enable this option, if you want Invoice Printer Pro to automatically detect, and send the invoice based on your customer's language.
+Your Shopify order information also includes the language and region of your customer. Enable this option, if you want Invoice Falcon to automatically detect, and send the invoice based on your customer's language.
 
 (1) This option is supported only for the languages supported by our application.
 

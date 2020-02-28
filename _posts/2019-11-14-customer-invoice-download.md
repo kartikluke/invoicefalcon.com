@@ -3,7 +3,7 @@ layout: post
 title:  "Add links to invoices in Customer account page"
 ---
 
-With Invoice printer Pro, you can add a link to your customer's account page so that they can download the invoice for their orders anytime.
+With Invoice Falcon, you can add a link to your customer's account page so that they can download the invoice for their orders anytime.
 
 When your customer clicks on this link, they will be redirected to a PDF version of the invoice & they can choose to print the invoice or download it to their device.
 

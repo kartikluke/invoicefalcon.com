@@ -3,16 +3,16 @@ layout: post
 title:  "Set a numbering sequence for your invoices"
 ---
 
-With Invoice Printer Pro, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.
+With Invoice Falcon, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.
 
 Click on **Invoice Settings** in the left menu bar of our application & click on **Invoice Number, Date & Copies** tab in this page. You'll see a few settings that look like this -
 
-![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/number.png "Invoice number options in Invoice Printer Pro")
+![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/number.png "Invoice number options in Invoice Falcon")
 
 <br/>
 **<u>Same as order number</u>**
 <br/>
-By default, Invoice Printer Pro will use the order number (or draft order number) as the invoice number. Invoices that are created manually will follow their own numbering sequence.
+By default, Invoice Falcon will use the order number (or draft order number) as the invoice number. Invoices that are created manually will follow their own numbering sequence.
 
 If you want to use the same number as your order, _but you'd also like to have a prefix or identifier to indicate that the document is an invoice_ (as may be required by law in some countries), enter the prefix in the **Invoice Number Prefix** field.
 
