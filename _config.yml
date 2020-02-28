@@ -8,7 +8,6 @@ url: 'invoicefalcon.com'
 header_pages:
   - index.md
   - help.md
-  - about.md
 footer_links:
   faq:
     link: /faq.html
