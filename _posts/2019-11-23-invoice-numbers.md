@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Set a numbering sequence for your invoices"
+category: [Design your invoice]
+teaser: "Let your invoices follow your store's order numbers or create a custom numbering system."
 ---
 
 With Invoice Falcon, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.

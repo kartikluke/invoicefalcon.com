@@ -3,10 +3,16 @@ title: Help Center
 url: '/help'
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for category in site.categories %}
+  <div class="category-container">
+    <h3>{{ category[0] }}</h3>
+    <div class="posts-container">
+      {% for post in category[1] %}
+        <div class="single-post">
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <p>{{post.teaser}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}

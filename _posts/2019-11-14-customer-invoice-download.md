@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Add links to invoices in Customer account page"
+category: [Include links to invoices]
+teaser: "Let customers download the invoice for any order in their account history."
 ---
 
 With Invoice Falcon, you can add a link to your customer's account page so that they can download the invoice for their orders anytime.

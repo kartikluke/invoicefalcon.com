@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Set the language for your invoices"
+category: [Design your invoice]
+teaser: "Select the language in which your invoices & emails will be sent."
 ---
 
 Invoice Falcon is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.
