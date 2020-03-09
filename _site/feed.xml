@@ -1,54 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T15:56:28-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Update your reply-to address &amp;amp; email template</title><link href="http://localhost:4000/send%20invoices/2020/03/09/set-up-emails.html" rel="alternate" type="text/html" title="Update your reply-to address &amp; email template" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/09/set-up-emails</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/09/set-up-emails.html">&lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Email Content&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T16:06:33-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Change or remove your store’s address in the invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address.html" rel="alternate" type="text/html" title="Change or remove your store's address in the invoice" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address.html">&lt;p&gt;In Invoice Falcon, we automatically pick up your store’s address and other important details when you first sign up to use our application. These details are shown to your customer in the ‘Supplier Address’ section of the invoice. In this article, we’ll guide you through how you can change or remove these address details.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/reply-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Set up the address you want email replies to&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
-&lt;p&gt;When you send an invoice from Invoice Falcon, your customer will see your store’s name as the sender of the email.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/supplier-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Supplier address in the invoice&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The email address that the invoice is sent from is invoices@invoicefalcon.com. However, all replies to any email from our app will go to the email address mentioned in the &lt;strong&gt;Email - Reply-to address&lt;/strong&gt; specified in the field here.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Legal/Business Name&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+If your business’s registered name is not the same as that of your store and you need to show this in your invoice, enter your business name here. This business name will be shown right underneath your store name in the ‘Supplier Address’.&lt;/p&gt;
 
-&lt;p&gt;Enter or update the address you’d like to receive replies to and click ‘Save’ right after.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Address Line 1, Address Line 2, City, Province, Country &amp;amp; Zip Code&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+In most cases, these details will be automatically filled from your Shopify store’s details. If you’d like to change your address, enter the details in any of these provided fields to update them.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Email Address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To change your email address shown to customers in your invoice, enter the new/updated email address here.&lt;/p&gt;
+
+&lt;p&gt;To remove your email address from the invoice, scroll below till you find the “Email Address” checkbox in the “Your Address” subsection and uncheck the box.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Phone number&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Enter your new/updated phone number in this field.&lt;/p&gt;
+
+&lt;p&gt;To remove your phone number from the invoice, remove all the text in this field. The phone number will be automatically removed from your invoice.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/email-template.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit/update your email template&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By default, Invoice Falcon sends your invoice in an email with a standard subject &amp;amp; body. Here, you can edit the subject &amp;amp; body of the email to personalize it to your store &amp;amp; brand.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on the &lt;strong&gt;Enable&lt;/strong&gt; button in the box labelled ‘Custom email template’.&lt;/li&gt;
-  &lt;li&gt;Select the type of document for which you’d like to edit the email template. The available document types are Invoice, Quote, Pro-Forma Invoice &amp;amp; Credit Note.&lt;/li&gt;
-  &lt;li&gt;Enter your desired subject and body in the fields provided.&lt;/li&gt;
-  &lt;li&gt;Make sure to click ‘Save Changes’ after you’re done.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/supplier-check-uncheck.png&quot; alt=&quot;an image alt text&quot; title=&quot;Supplier address in the invoice&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;How do I use liquid variables?&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-We’ve provided a few liquid variables that you can use in your email template. Please note that these variables need to be exactly as they look in the Variables section. If they are not as specified, there may be issues with sending the emails to your customer.&lt;/p&gt;
-
-&lt;p&gt;To use a liquid variable in your template, simply copy the variable you need by selecting the text, pressing Ctrl+C or Cmd+C and then pressing Ctrl+V or Cmd+V in any of the fields.&lt;/p&gt;
-
-&lt;p&gt;When the email is sent to your customer, these fields will be resolved and replaced with the actual data for that invoice.&lt;/p&gt;
+You can also choose to hide specific details of the address or your entire store address from the invoice.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;How do I use the {% if invoice.requires_payment %} variable?&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;To hide specific details of your address&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-This variable is designed to add a Stripe payment link to the invoice email. When this variable is added to your template, a piece of text (asking your customer to pay) and a link to complete the payment will be shown to your customer.&lt;/p&gt;
+In this same section, scroll down till you find the “Your Address” subsection. Uncheck the boxes for details that you’d not like to show in the invoice.&lt;/p&gt;
 
-&lt;p&gt;Please note that setting up this payment link requires an Ultimate subscription and a Stripe account.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;To hide specific details of your address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+In this same section, scroll down till you find the “Addresses in Invoice” subsection. Uncheck the box labelled “Your Address”&lt;/p&gt;
 
-&lt;p&gt;To use this variable, please copy the following snippet of code to your email template -&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if invoice.requires_payment %}
-Please complete the payment for your order by clicking on this link - {{ invoice.payment_link }}
-{% endif %}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Note - You can replace the text ‘Please complete the payment for your order by clicking on this link’ with any text of your choice. When updating this text, please ensure that ‘- ‘ is still present at the end of that line.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">Click on Email Settings in the left menu bar of our application &amp;amp; click on Email Content tab in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Create a Quote for your Shopify Draft Order</title><link href="http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order.html" rel="alternate" type="text/html" title="Create a Quote for your Shopify Draft Order" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order.html">&lt;p&gt;With Invoice Falcon, generate an invoice for any Shopify Draft Order instantly in a few seconds. Not only do we have a quick easy way for you to generate a quote for your recent draft orders, but we’ve also integrated our app with your Shopify dashboard.&lt;/p&gt;
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In Invoice Falcon, we automatically pick up your store’s address and other important details when you first sign up to use our application. These details are shown to your customer in the ‘Supplier Address’ section of the invoice. In this article, we’ll guide you through how you can change or remove these address details.</summary></entry><entry><title type="html">Create a Quote for your Shopify Draft Order</title><link href="http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order.html" rel="alternate" type="text/html" title="Create a Quote for your Shopify Draft Order" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/09/create-quote-for-draft-order.html">&lt;p&gt;With Invoice Falcon, generate an invoice for any Shopify Draft Order instantly in a few seconds. Not only do we have a quick easy way for you to generate a quote for your recent draft orders, but we’ve also integrated our app with your Shopify dashboard.&lt;/p&gt;
 
 &lt;h4 id=&quot;from-invoice-falcon&quot;&gt;From Invoice Falcon&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/create-invoice/create-quote-list.png&quot; alt=&quot;an image alt text&quot; title=&quot;Generate quote for draft orders&quot; /&gt;&lt;/p&gt;
@@ -106,63 +113,65 @@ To generate the invoice for an order from your Shopify dashboard -&lt;/p&gt;
   &lt;li&gt;Click on the &lt;strong&gt;More Actions&lt;/strong&gt; dropdown underneath the order name (and next to the “Edit” icon).&lt;/li&gt;
   &lt;li&gt;Click &lt;strong&gt;Send or Print Invoice&lt;/strong&gt; (with blue icon).&lt;/li&gt;
   &lt;li&gt;This will automatically redirect you to the Invoice Preview page in our app, where the invoice will be generated and you can review it before printing or sending it to your customer.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">With Invoice Falcon, generate an invoice for any Shopify order instantly in a few seconds. Not only do we have a quick easy way for you to generate an invoice for your recent orders, but we’ve also integrated our app with your Shopify dashboard.</summary></entry><entry><title type="html">Change or remove your store’s address in the invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address.html" rel="alternate" type="text/html" title="Change or remove your store's address in the invoice" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/09/update-supplier-address.html">&lt;p&gt;In Invoice Falcon, we automatically pick up your store’s address and other important details when you first sign up to use our application. These details are shown to your customer in the ‘Supplier Address’ section of the invoice. In this article, we’ll guide you through how you can change or remove these address details.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">With Invoice Falcon, generate an invoice for any Shopify order instantly in a few seconds. Not only do we have a quick easy way for you to generate an invoice for your recent orders, but we’ve also integrated our app with your Shopify dashboard.</summary></entry><entry><title type="html">Change the order of addresses in your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/09/change-address-position.html" rel="alternate" type="text/html" title="Change the order of addresses in your invoice" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/09/change-address-position</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/09/change-address-position.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/supplier-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Supplier address in the invoice&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/address-position.png&quot; alt=&quot;an image alt text&quot; title=&quot;Change address position in invoice&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Legal/Business Name&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-If your business’s registered name is not the same as that of your store and you need to show this in your invoice, enter your business name here. This business name will be shown right underneath your store name in the ‘Supplier Address’.&lt;/p&gt;
+In the documents generated by Invoice Falcon, addresses occupy the top section of the document and by default, they are shown in the following order from left to right - Your address, your customer’s Shipping address and then your customer’s Billing address.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Address Line 1, Address Line 2, City, Province, Country &amp;amp; Zip Code&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-In most cases, these details will be automatically filled from your Shopify store’s details. If you’d like to change your address, enter the details in any of these provided fields to update them.&lt;/p&gt;
+&lt;p&gt;To change this, you’ll find 3 dropdowns in the &lt;strong&gt;Address position&lt;/strong&gt; subsection of this page. For each of the positions, select the address that you’d like shown in that position.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Email Address&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-To change your email address shown to customers in your invoice, enter the new/updated email address here.&lt;/p&gt;
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Supplier, Shipping &amp;amp; Billing Addresses section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Update your reply-to address &amp;amp; email template</title><link href="http://localhost:4000/send%20invoices/2020/03/09/set-up-emails.html" rel="alternate" type="text/html" title="Update your reply-to address &amp; email template" /><published>2020-03-09T00:00:00-04:00</published><updated>2020-03-09T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/09/set-up-emails</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/09/set-up-emails.html">&lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Email Content&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
-&lt;p&gt;To remove your email address from the invoice, scroll below till you find the “Email Address” checkbox in the “Your Address” subsection and uncheck the box.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/reply-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Set up the address you want email replies to&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Phone number&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enter your new/updated phone number in this field.&lt;/p&gt;
+&lt;p&gt;When you send an invoice from Invoice Falcon, your customer will see your store’s name as the sender of the email.&lt;/p&gt;
 
-&lt;p&gt;To remove your phone number from the invoice, remove all the text in this field. The phone number will be automatically removed from your invoice.&lt;/p&gt;
+&lt;p&gt;The email address that the invoice is sent from is invoices@invoicefalcon.com. However, all replies to any email from our app will go to the email address mentioned in the &lt;strong&gt;Email - Reply-to address&lt;/strong&gt; specified in the field here.&lt;/p&gt;
+
+&lt;p&gt;Enter or update the address you’d like to receive replies to and click ‘Save’ right after.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/supplier-check-uncheck.png&quot; alt=&quot;an image alt text&quot; title=&quot;Supplier address in the invoice&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/email-template.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit/update your email template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, Invoice Falcon sends your invoice in an email with a standard subject &amp;amp; body. Here, you can edit the subject &amp;amp; body of the email to personalize it to your store &amp;amp; brand.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Enable&lt;/strong&gt; button in the box labelled ‘Custom email template’.&lt;/li&gt;
+  &lt;li&gt;Select the type of document for which you’d like to edit the email template. The available document types are Invoice, Quote, Pro-Forma Invoice &amp;amp; Credit Note.&lt;/li&gt;
+  &lt;li&gt;Enter your desired subject and body in the fields provided.&lt;/li&gt;
+  &lt;li&gt;Make sure to click ‘Save Changes’ after you’re done.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;
-You can also choose to hide specific details of the address or your entire store address from the invoice.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;To hide specific details of your address&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;How do I use liquid variables?&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-In this same section, scroll down till you find the “Your Address” subsection. Uncheck the boxes for details that you’d not like to show in the invoice.&lt;/p&gt;
+We’ve provided a few liquid variables that you can use in your email template. Please note that these variables need to be exactly as they look in the Variables section. If they are not as specified, there may be issues with sending the emails to your customer.&lt;/p&gt;
+
+&lt;p&gt;To use a liquid variable in your template, simply copy the variable you need by selecting the text, pressing Ctrl+C or Cmd+C and then pressing Ctrl+V or Cmd+V in any of the fields.&lt;/p&gt;
+
+&lt;p&gt;When the email is sent to your customer, these fields will be resolved and replaced with the actual data for that invoice.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;To hide specific details of your address&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;How do I use the {% if invoice.requires_payment %} variable?&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-In this same section, scroll down till you find the “Addresses in Invoice” subsection. Uncheck the box labelled “Your Address”&lt;/p&gt;
+This variable is designed to add a Stripe payment link to the invoice email. When this variable is added to your template, a piece of text (asking your customer to pay) and a link to complete the payment will be shown to your customer.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
+&lt;p&gt;Please note that setting up this payment link requires an Ultimate subscription and a Stripe account.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;To use this variable, please copy the following snippet of code to your email template -&lt;/p&gt;
 
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In Invoice Falcon, we automatically pick up your store’s address and other important details when you first sign up to use our application. These details are shown to your customer in the ‘Supplier Address’ section of the invoice. In this article, we’ll guide you through how you can change or remove these address details.</summary></entry><entry><title type="html">Add notes or bank/payment information to all invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice.html" rel="alternate" type="text/html" title="Add notes or bank/payment information to all invoices" /><published>2020-03-08T00:00:00-05:00</published><updated>2020-03-08T00:00:00-05:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice.html">&lt;p&gt;With Invoice Falcon, you can add a custom message to all of your invoices. This custom message can be a simple thank you note to customers for their purchase, or you can also use it to place important payment/bank account information for customers making payments after placing their order.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if invoice.requires_payment %}
+Please complete the payment for your order by clicking on this link - {{ invoice.payment_link }}
+{% endif %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note - You can replace the text ‘Please complete the payment for your order by clicking on this link’ with any text of your choice. When updating this text, please ensure that ‘- ‘ is still present at the end of that line.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">Click on Email Settings in the left menu bar of our application &amp;amp; click on Email Content tab in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Add notes or bank/payment information to all invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice.html" rel="alternate" type="text/html" title="Add notes or bank/payment information to all invoices" /><published>2020-03-08T00:00:00-05:00</published><updated>2020-03-08T00:00:00-05:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/08/notes-bank-info-invoice.html">&lt;p&gt;With Invoice Falcon, you can add a custom message to all of your invoices. This custom message can be a simple thank you note to customers for their purchase, or you can also use it to place important payment/bank account information for customers making payments after placing their order.&lt;/p&gt;
 
 &lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Thank you Message &amp;amp; Social Media&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
@@ -276,45 +285,4 @@ Invoice numbers for any invoices created before changing the numbering sequence 
 
 &lt;p&gt;Note - &lt;em&gt;Replace ‘invoicefalconstore.myshopify.com’ with your store’s myshopify link.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Click &lt;em&gt;Save&lt;/em&gt; and that’s it! Your Order Confirmation email will now include a link to the invoice of that order. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Include links to invoices&quot;]" /><summary type="html">When a customer places an order on your store, Shopify sends an email, called the Order Confirmation email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.</summary></entry><entry><title type="html">Set the language for your invoices &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language.html" rel="alternate" type="text/html" title="Set the language for your invoices &amp; emails" /><published>2019-11-14T00:00:00-05:00</published><updated>2019-11-14T00:00:00-05:00</updated><id>http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language.html">&lt;p&gt;Invoice Falcon is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice &amp;amp; Email Language&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/language.png&quot; alt=&quot;an image alt text&quot; title=&quot;Language Options in Invoice Falcon&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Invoice Falcon supports 23 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Czech, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, &amp;amp; Swedish.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Invoice Language&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This is the language of the invoice. Click on the dropdown to select your language.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Email Language&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This is the language that the email will sent in. Click on the dropdown to select your language.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Automatically detect &amp;amp; send invoice based on customer's language&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Your Shopify order information also includes the language and region of the customer that placed the order. Enable this option, if you want Invoice Falcon to automatically detect, and send the invoice based on your customer’s language.&lt;/p&gt;
-
-&lt;p&gt;(1) This option is supported only for the languages supported by our application.&lt;/p&gt;
-
-&lt;p&gt;(2) If we are unable to automatically detect the language of your customer, the invoice will be sent based on the language selected in &lt;em&gt;Invoice Language&lt;/em&gt; &amp;amp; &lt;em&gt;Email Language&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you’ve selected your preferred settings, make sure to click the &lt;strong&gt;Save Changes&lt;/strong&gt; button. If you’ve created any invoices before setting your language, they will be automatically updated with the new language.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;my-language-isnt-listed-what-do-i-do&quot;&gt;My language isn’t listed. What do I do?&lt;/h3&gt;
-&lt;p&gt;Don’t worry! You have a couple of options here -&lt;/p&gt;
-
-&lt;p&gt;(1) Contact us 24*7 via live chat or email at invoicefalcon.shopify@gmail.com, and we’ll add it for you. :)&lt;/p&gt;
-
-&lt;p&gt;(2) You can also set up your own language for the invoice without contacting us. Head back to the &lt;strong&gt;Invoice Settings&lt;/strong&gt; page, and find the section named &lt;strong&gt;Edit Titles &amp;amp; Labels&lt;/strong&gt;. In this section, you can add your own translation for each header, title &amp;amp; label in the invoice.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Invoice Falcon is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.</summary></entry></feed>
+&lt;p&gt;Click &lt;em&gt;Save&lt;/em&gt; and that’s it! Your Order Confirmation email will now include a link to the invoice of that order. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Include links to invoices&quot;]" /><summary type="html">When a customer places an order on your store, Shopify sends an email, called the Order Confirmation email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.</summary></entry></feed>
