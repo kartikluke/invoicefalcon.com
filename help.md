@@ -10,7 +10,7 @@ url: '/help'
       {% for post in category[1] %}
         <div class="single-post">
           <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          <p>{{post.teaser}}</p>
+          <p class="teaser">{{post.teaser}}</p>
         </div>
       {% endfor %}
     </div>
