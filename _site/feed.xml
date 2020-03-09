@@ -1,32 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-08T19:59:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-08T20:26:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
 </subtitle><author><name>622 Solutions</name></author><entry><title type="html">Set a numbering sequence for your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2019/11/23/invoice-numbers.html" rel="alternate" type="text/html" title="Set a numbering sequence for your invoices" /><published>2019-11-23T00:00:00-05:00</published><updated>2019-11-23T00:00:00-05:00</updated><id>http://localhost:4000/design%20your%20invoice/2019/11/23/invoice-numbers</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2019/11/23/invoice-numbers.html">&lt;p&gt;With Invoice Falcon, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.&lt;/p&gt;
 
-&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice Number, Date &amp;amp; Copies&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice Number, Date &amp;amp; Copies&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/number.png&quot; alt=&quot;an image alt text&quot; title=&quot;Invoice number options in Invoice Falcon&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Same as order number&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-By default, Invoice Falcon will use the order number (or draft order number) as the invoice number. Invoices that are created manually will follow their own numbering sequence.&lt;/p&gt;
+&lt;b&gt;By default, Invoice Falcon will use the order number (or draft order number) as the document number.&lt;/b&gt; Documents that are created manually (for example, invoices or quotes that are not linked to a Shopify order/draft order) will follow their own numbering sequence.&lt;/p&gt;
 
-&lt;p&gt;If you want to use the same number as your order, &lt;em&gt;but you’d also like to have a prefix or identifier to indicate that the document is an invoice&lt;/em&gt; (as may be required by law in some countries), enter the prefix in the &lt;strong&gt;Invoice Number Prefix&lt;/strong&gt; field.&lt;/p&gt;
+&lt;p&gt;For example, if an order on your store is labelled/identified as “IFS-1080-EN”, then the default invoice number will also be “IFS-1080-EN”.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Use order number instead of order name&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Shopify uses two separate identifiers for every order on your store. One of them is order name, which is the label/identifier to your customers and the other is order number, which Shopify tracks and is known only to you.&lt;/p&gt;
+
+&lt;p&gt;For example, if an order name is ‘IFS-1080-EN’, the order number is ‘1080’. (Please note that this might not be the case for your store.)&lt;/p&gt;
+
+&lt;p&gt;As described above, Invoice Falcon uses the order name as the default invoice number for your invoices. If you’d like to use the order number as the invoice number, enable the checkbox labelled “Use order number instead of order name”.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Custom number sequence&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+When you set up a custom numbering sequence, the invoices will have a number that are completely different from the order names/numbers for which they are created.&lt;/p&gt;
+
+&lt;p&gt;To set this up, enter a number of your choice in the &lt;strong&gt;Next Invoice Number&lt;/strong&gt; field. You can enter a number like ‘10001’ or ‘ABGN12034’. Make sure to click ‘Save Changes after entering your number.&lt;/p&gt;
+
+&lt;p&gt;The custom number will be automatically increased by 1 every time you create a new invoice. For example, if the number saved was “ABGN12034”, the second invoice created will have the number “ABGN12035”.&lt;/p&gt;
+
+&lt;p&gt;Note - &lt;em&gt;If you want to stop using a custom numbering sequence, remove the number from the Next Invoice Number field and click ‘Save Changes’.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Invoice Number Prefix&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+If you want to use the same name/number as your order, &lt;em&gt;but you’d also like to have a prefix or identifier to indicate that the document is an invoice&lt;/em&gt; (as may be required by law in some countries), enter the prefix in the &lt;strong&gt;Invoice Number Prefix&lt;/strong&gt; field.&lt;/p&gt;
 
 &lt;p&gt;Example - If your order number is &lt;strong&gt;#1080&lt;/strong&gt; and the invoice number prefix is &lt;strong&gt;IFS&lt;/strong&gt;, the invoice number will be &lt;strong&gt;IFS#1080&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Custom numbering sequence&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-When you set up a custom numbering sequence, the invoices will have a number that are completely different from the order numbers for which they are created.&lt;/p&gt;
-
-&lt;p&gt;To set this up, enter a number of your choice in the &lt;strong&gt;Next Invoice Number&lt;/strong&gt; field. You can enter a number like ‘10001’ or ‘ABGN12034’. Make sure to click ‘Save Changes after entering this number.&lt;/p&gt;
-
-&lt;p&gt;Invoice numbers for invoices created before this change will not be updated automatically. If you’d like to change numbers for previous invoices, please contact us via live chat or email.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-Note - &lt;em&gt;If you want to stop using a custom numbering sequence, remove the number from the Next Invoice Number field and click ‘Save Changes’.&lt;/em&gt;&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">With Invoice Falcon, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.</summary></entry><entry><title type="html">Add a link to the invoice in Order Confirmation Email</title><link href="http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice.html" rel="alternate" type="text/html" title="Add a link to the invoice in Order Confirmation Email" /><published>2019-11-16T00:00:00-05:00</published><updated>2019-11-16T00:00:00-05:00</updated><id>http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice</id><content type="html" xml:base="http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice.html">&lt;p&gt;When a customer places an order on your store, Shopify sends an email, called the &lt;em&gt;Order Confirmation&lt;/em&gt; email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.&lt;/p&gt;
+Invoice numbers for any invoices created before changing the numbering sequence settings here &lt;i&gt;will not be updated automatically&lt;/i&gt;. If you’d like to change or reset the numbers for previous invoices, please contact us via customer support widget inside Invoice Falcon or email us at invoicefalcon.shopify@gmail.com.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">With Invoice Falcon, you can choose to have the numbers for your invoices follow the same number as your orders, or you can set a custom numbering sequence that gets updated automatically.</summary></entry><entry><title type="html">Add a link to the invoice in Order Confirmation Email</title><link href="http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice.html" rel="alternate" type="text/html" title="Add a link to the invoice in Order Confirmation Email" /><published>2019-11-16T00:00:00-05:00</published><updated>2019-11-16T00:00:00-05:00</updated><id>http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice</id><content type="html" xml:base="http://localhost:4000/include%20links%20to%20invoices/2019/11/16/order-confirmation-email-invoice.html">&lt;p&gt;When a customer places an order on your store, Shopify sends an email, called the &lt;em&gt;Order Confirmation&lt;/em&gt; email, that informs the customer about their order. This email includes a link to the order, products purchased &amp;amp; their quantities, shipping &amp;amp; billing addresses and the payment method used.&lt;/p&gt;
 
 &lt;p&gt;With Invoice Falcon, you can place a link to the invoice for their order in this email. When customers click on this link, they will be redirected to a PDF invoice that they can choose to print or download to their device.&lt;/p&gt;
 
@@ -36,7 +53,9 @@ Note - &lt;em&gt;If you want to stop using a custom numbering sequence, remove t
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;To add this link to your Order Confirmation Email, you will need to add a tiny snippet of code to your Order Confirmation Email Template.&lt;/p&gt;
+&lt;p&gt;To add this link to your Order Confirmation Email, you will need to add a tiny snippet of code to your Order Confirmation Email Template. Click on this link to generate the code and for a step-by-step guide on how to save it in your template - &lt;b&gt;&lt;a href=&quot;https://app.invoicefalcon.com/emailcode&quot;&gt;Order Confirmation Email in Invoice Falcon&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Or, you can follow these steps below -&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;In your Shopify admin dashboard, click &lt;strong&gt;Settings&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Notifications&lt;/strong&gt;&lt;/li&gt;
@@ -75,11 +94,11 @@ Note - &lt;em&gt;If you want to stop using a custom numbering sequence, remove t
 
 &lt;p&gt;Click &lt;em&gt;Save&lt;/em&gt; and that’s it! Your customer account page will be automatically updated to include the new column. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Include links to invoices&quot;]" /><summary type="html">With Invoice Falcon, you can add a link to your customer’s account page so that they can download the invoice for their orders anytime.</summary></entry><entry><title type="html">Set the language for your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language.html" rel="alternate" type="text/html" title="Set the language for your invoices" /><published>2019-11-14T00:00:00-05:00</published><updated>2019-11-14T00:00:00-05:00</updated><id>http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2019/11/14/invoice-email-language.html">&lt;p&gt;Invoice Falcon is packed with a ton of features, all dedicated to helping you set up your invoices exactly as you need them. The first step we recommend is to set the language for your invoices and the emails they will be sent in.&lt;/p&gt;
 
-&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice &amp;amp; Email Language&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice &amp;amp; Email Language&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/language.png&quot; alt=&quot;an image alt text&quot; title=&quot;Language Options in Invoice Falcon&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Invoice Falcon supports 21 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Romanian, Portuguese, Slovak, Slovenian&lt;/p&gt;
+&lt;p&gt;Invoice Falcon supports 23 languages out of the box - English, Azerbaijani, Bulgarian, Chinese, Czech, Danish, Dutch, Estonian, Finnish, French, German, Italian, Japanese, Korean, Lithuanian, Norwegian, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, &amp;amp; Swedish.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;u&gt;Invoice Language&lt;/u&gt;&lt;/strong&gt;
@@ -92,9 +111,9 @@ This is the language of the invoice. Click on the dropdown to select your langua
 This is the language that the email will sent in. Click on the dropdown to select your language.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Send Invoice based on customer's language&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;Automatically detect &amp;amp; send invoice based on customer's language&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-Your Shopify order information also includes the language and region of your customer. Enable this option, if you want Invoice Falcon to automatically detect, and send the invoice based on your customer’s language.&lt;/p&gt;
+Your Shopify order information also includes the language and region of the customer that placed the order. Enable this option, if you want Invoice Falcon to automatically detect, and send the invoice based on your customer’s language.&lt;/p&gt;
 
 &lt;p&gt;(1) This option is supported only for the languages supported by our application.&lt;/p&gt;
 
@@ -104,8 +123,10 @@ Your Shopify order information also includes the language and region of your cus
 
 &lt;p&gt;Once you’ve selected your preferred settings, make sure to click the &lt;strong&gt;Save Changes&lt;/strong&gt; button. If you’ve created any invoices before setting your language, they will be automatically updated with the new language.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;my-language-isnt-listed-what-do-i-do&quot;&gt;My language isn’t listed. What do I do?&lt;/h3&gt;
 &lt;p&gt;Don’t worry! You have a couple of options here -&lt;/p&gt;

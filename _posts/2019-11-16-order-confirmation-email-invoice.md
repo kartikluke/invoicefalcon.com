@@ -15,7 +15,9 @@ With Invoice Falcon, you can place a link to the invoice for their order in this
 
 <br/>
 
-To add this link to your Order Confirmation Email, you will need to add a tiny snippet of code to your Order Confirmation Email Template.
+To add this link to your Order Confirmation Email, you will need to add a tiny snippet of code to your Order Confirmation Email Template. Click on this link to generate the code and for a step-by-step guide on how to save it in your template - <b>[Order Confirmation Email in Invoice Falcon](https://app.invoicefalcon.com/emailcode)</b>
+
+Or, you can follow these steps below -
 
 1. In your Shopify admin dashboard, click __Settings__ -> __Notifications__
 2. Here, click on the __Order Confirmed__ notification. You will be directed to a page that lets you edit the the template.
