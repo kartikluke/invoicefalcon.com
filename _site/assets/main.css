@@ -196,6 +196,10 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+.site-header { border-top: 10px solid #1083ff !important; }
+
+.site-footer { border-bottom: 10px solid #1083ff !important; }
+
 body { font-family: 'Noto Sans TC', sans-serif; line-height: 1.8rem; color: #3e3e3e; }
 
 .wrapper { max-width: 80% !important; }

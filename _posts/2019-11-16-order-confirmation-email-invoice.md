@@ -2,7 +2,7 @@
 layout: post
 title:  "Add a link to the invoice in Order Confirmation Email"
 category: [Include links to invoices]
-teaser: "Place a link to download the invoice in Shopify's Order Confirmation Email"
+teaser: "Place a link to download the invoice in Shopify's Order Confirmation Email."
 ---
 
 When a customer places an order on your store, Shopify sends an email, called the _Order Confirmation_ email, that informs the customer about their order. This email includes a link to the order, products purchased & their quantities, shipping & billing addresses and the payment method used.

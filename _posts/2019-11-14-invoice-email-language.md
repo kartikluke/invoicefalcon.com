@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Set the language for your invoices"
+title:  "Set the language for your invoices & emails"
 category: [Design your invoice]
 teaser: "Select the language in which your invoices & emails will be sent."
 ---

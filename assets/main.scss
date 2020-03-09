@@ -6,6 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,500,700,900&display=swap');
 
+.site-header {
+  border-top: 10px solid #1083ff !important;
+}
+
+.site-footer {
+  border-bottom: 10px solid #1083ff !important;
+}
+
 body {
   font-family: 'Noto Sans TC', sans-serif;
   line-height: 1.8rem;
