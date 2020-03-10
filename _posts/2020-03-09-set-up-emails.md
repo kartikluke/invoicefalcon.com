@@ -15,6 +15,13 @@ The email address that the invoice is sent from is invoices@invoicefalcon.com. H
 
 Enter or update the address you'd like to receive replies to and click 'Save' right after.
 
+<br/>
+**<u>Why are my emails sent from invoices@invoicefalcon.com?</u>**
+<br/>
+We did have settings in Invoice Falcon earlier to send emails from your own address, but unfortunately we had to disable this because our systems and email provider account were being marked as spam since it was sending emails from multiple addresses (on behalf of many users). 
+
+As mentioned above, while all emails will be sent from invoices@invoicefalcon.com, when a customer replies to your email by clicking "Reply", the reply will be sent to your reply-to address mentioned in this field.
+
 
 <br/>
 <hr/>
@@ -53,4 +60,4 @@ To use this variable, please copy the following snippet of code to your email te
     {% endif %}
 {% endraw %}
 
-Note - You can replace the text 'Please complete the payment for your order by clicking on this link' with any text of your choice. When updating this text, please ensure that '- {{ invoice.payment_link }}' is still present at the end of that line.
+Note - You can replace the text 'Please complete the payment for your order by clicking on this link' with any text of your choice. When updating this text, please ensure that '- {%raw%}{{ invoice.payment_link }}{%endraw%}' is still present at the end of that line.
