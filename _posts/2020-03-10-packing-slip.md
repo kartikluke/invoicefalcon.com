@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Set up the Packing Slip for your orders"
+title:  "Set up packing slips for your Shopify orders"
 category: [Packing Slip]
 teaser: "Show or hide details from the packing slips for your orders."
 ---

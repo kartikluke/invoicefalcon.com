@@ -1,25 +1,193 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-11T15:08:34-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Set a default due date for all unpaid invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/11/default-due-date.html" rel="alternate" type="text/html" title="Set a default due date for all unpaid invoices" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/11/default-due-date</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/11/default-due-date.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Default due date&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-14T13:12:17-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Get a PDF invoice for every order in your store automatically</title><link href="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html" rel="alternate" type="text/html" title="Get a PDF invoice for every order in your store automatically" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html">&lt;p&gt;With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/default-due.png&quot; alt=&quot;an image alt text&quot; title=&quot;Set a default due date for all unpaid invoices&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Automatic Invoices&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Default Due Date&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-In this field, enter the number of days by which your customer should complete their payment for the invoice. When the invoice is printed or sent to your customer, the due date will be calculated by adding this number of days to the date the invoice was issued.&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - Please make sure to enter a whole number in this field.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/automatic-bcc.png&quot; alt=&quot;an image alt text&quot; title=&quot;Get a PDF invoice for every order in your store automatically&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Where is the due date shown on the invoice?&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;Automatic Invoices - BCC&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-The due date for your invoice will be shown in the top section of the invoice, underneath the title of the document and right next to the Invoice Number.&lt;/p&gt;
+Enter the email address(s) where you’d like to receive the invoice. When you enter an email address here, Invoice Falcon will automatically track your store, generate and send the PDF invoice to this address as soon as an order is placed.&lt;/p&gt;
+
+&lt;p&gt;Please note that this feature works completely independent of ‘Automatic Invoicing - Customers’. This means that if you enter an email address here but automatic invoices to customers is disabled, you will receive the PDF invoice at this mentioned address.&lt;/p&gt;
+
+&lt;p&gt;To stop receiving invoices automatically, please remove your email address(s) from this field and click ‘Save’.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!</summary></entry><entry><title type="html">Show original price &amp;amp; order discounts in your Shopify invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice.html" rel="alternate" type="text/html" title="Show original price &amp; order discounts in your Shopify invoices" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice.html">&lt;p&gt;We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/price-before-discounts.png&quot; alt=&quot;an image alt text&quot; title=&quot;Show original price of product (price before discounts)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;show-original-price-of-product-price-before-discounts&quot;&gt;Show original price of product (price before discounts)&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Product Details’ section of this page.&lt;/li&gt;
+  &lt;li&gt;Enable the checkbox labelled ‘Price before discounts’&lt;/li&gt;
+  &lt;li&gt;Your Invoice Preview will automatically update to show the original price (before discounts) above the discounted price.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;show-discount-percentage-applicable-on-each-product&quot;&gt;Show discount percentage applicable on each product&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Product Details’ section of this page.&lt;/li&gt;
+  &lt;li&gt;Enable the checkbox labelled ‘Discount percentage’&lt;/li&gt;
+  &lt;li&gt;Your Invoice Preview will automatically update to show the total applied discount rate in a column next to the unit price.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/discount-code-amount.png&quot; alt=&quot;an image alt text&quot; title=&quot;Show discounts amount as a subtotal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;show-discount-code-used&quot;&gt;Show discount code used&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Invoice Details’ section of this page.&lt;/li&gt;
+  &lt;li&gt;Enable the checkbox labelled ‘Discount Code’ in the ‘Order’ subsection.&lt;/li&gt;
+  &lt;li&gt;Your Invoice Preview will automatically update to show the discount used for the order in the left side underneath the list of items.&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;p&gt;&lt;br /&gt;
-Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Default due date section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Automatically send invoices to your customers</title><link href="http://localhost:4000/send%20invoices/2020/03/11/automatic-send.html" rel="alternate" type="text/html" title="Automatically send invoices to your customers" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/11/automatic-send</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/11/automatic-send.html">&lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Automatic Invoices&lt;/strong&gt; tab on this page. You’ll see a few settings that look like this -&lt;/p&gt;
+By default, all discounts applied on your products and orders are split &amp;amp; shown at each individual product. But you can also choose to show your order discounts as a separate amount above the ‘Subtotal’ amount of your invoice.&lt;/p&gt;
+
+&lt;h4 id=&quot;show-discount-code-used-1&quot;&gt;Show discount code used&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Invoice Details’ section of this page.&lt;/li&gt;
+  &lt;li&gt;Enable the checkbox labelled ‘Show discount amount separately’ in the ‘Discounts’ subsection.&lt;/li&gt;
+  &lt;li&gt;Your Invoice Preview will automatically update to show all order-level applicable discounts as a separate amount in the ‘Totals’ section of your invoice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -</summary></entry><entry><title type="html">Add your customer’s tax/VAT number to the invoice</title><link href="http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number.html" rel="alternate" type="text/html" title="Add your customer's tax/VAT number to the invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number</id><content type="html" xml:base="http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number.html">&lt;h4 id=&quot;from-invoice-falcon&quot;&gt;From Invoice Falcon&lt;/h4&gt;
+&lt;p&gt;When you generate an invoice for an order with Invoice Falcon, your customer’s details get automatically saved into our app. After your customer is visible in the ‘Customers’ list of our app, you can add their tax registration/VAT number and it will be shown on the invoices for all their future purchases.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/customer-tax.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add your customer's tax/VAT number to the invoice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Search for the customer for whom you’d like to add the tax registraation/VAT number in the ‘Customers’ tab.&lt;/li&gt;
+  &lt;li&gt;Click ‘Edit Details’ button on the right side of the row containing the customer’s name.&lt;/li&gt;
+  &lt;li&gt;In the field labelled ‘VAT/Tax number’, enter the customer’s tax registration/VAT number like this - ‘VAT: XXXX123456’.&lt;/li&gt;
+  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
+  &lt;li&gt;Your existing invoices will be automatically updated to show the customer’s number underneath their billing address.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;during-checkout&quot;&gt;During checkout&lt;/h4&gt;
+&lt;p&gt;You can include a VAT/Tax Number field on your cart page so that your customers can enter their VAT number just before checkout. These numbers will be stored as cart attributes. We will then automatically pick up this number saved in the order and show it in the invoice.&lt;/p&gt;
+
+&lt;p&gt;To add this field to your cart page, please follow these steps below -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Online Store’ -&amp;gt; ‘Themes’ in your Shopify dashboard.&lt;/li&gt;
+  &lt;li&gt;Next, click on ‘Actions’ -&amp;gt; ‘Edit Code’&lt;/li&gt;
+  &lt;li&gt;Search for and click on the file labelled &lt;strong&gt;cart.liquid&lt;/strong&gt; or &lt;strong&gt;cart-template.liquid&lt;/strong&gt; (depending on your theme file)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Insert this snippet of code into this file in the section containing the ‘Update’ &amp;amp; ‘Checkout’ buttons -&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- Invoice Falcon VAT code START --&amp;gt;
+ &amp;lt;input type=&quot;text&quot; name=&quot;attributes[vat-id]&quot; placeholder=&quot;Enter your VAT #&quot; value=&quot;{{ cart.attributes['vat-id'] }}&quot; /&amp;gt;
+ &amp;lt;!-- Invoice Falcon VAT code END --&amp;gt;&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Click ‘Save’ in the file editor. That’s it!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here is what the code will look like in your file after you add the snippet -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/customer-tax-code.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add your customer's tax/VAT number to the invoice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;using-exemptify&quot;&gt;Using Exemptify&lt;/h4&gt;
+&lt;p&gt;If you’d like to avoid the hassle of modifying your theme files, we’d highly recommend that you check out Exemptify (&lt;a href=&quot;https://apps.shopify.com/exemptify&quot;&gt;Link&lt;/a&gt;) from our friends at Modules4U! Exemptify contains plenty of features that automatically captures and validates your customer’s VAT IDs. These IDs are then sent in your Shopify order details to us and they will automatically appear on the order’s invoices when you generate them.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Manage Customers&quot;]" /><summary type="html">From Invoice Falcon When you generate an invoice for an order with Invoice Falcon, your customer’s details get automatically saved into our app. After your customer is visible in the ‘Customers’ list of our app, you can add their tax registration/VAT number and it will be shown on the invoices for all their future purchases.</summary></entry><entry><title type="html">Create Credit notes for refunded/cancelled orders</title><link href="http://localhost:4000/create%20invoices/2020/03/13/create-credit-note.html" rel="alternate" type="text/html" title="Create Credit notes for refunded/cancelled orders" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/13/create-credit-note</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/13/create-credit-note.html">&lt;p&gt;A credit note is the opposite of an invoice - it’s an official document to show your customer that a partial or full amount has been credited back to them. Credit notes are also known as return invoices in some countries. In effect, a credit note might either cancel an invoice out completely if it’s for the same amount as the invoice, or it might be for less than the invoice.&lt;/p&gt;
+
+&lt;p&gt;In Invoice Falcon, credit notes have the same structure and template as your invoices. They will follow the same design settings as that of your invoices, with only minor changes/updates to reflect that it’s a credit note and not an actual invoice.&lt;/p&gt;
+
+&lt;p&gt;You can manually generate credit notes for any invoice in Invoice Falcon. Follow these steps below to do so -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Credit note for existing invoices/orders&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;To create a credit note for an existing invoice or order, click on the ‘Invoices’ tab in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Next, click on the order name/invoice number.&lt;/li&gt;
+  &lt;li&gt;This will take you to the Invoice Preview page.&lt;/li&gt;
+  &lt;li&gt;Click on ‘More’ dropdown -&amp;gt; ‘Create Credit Note’&lt;/li&gt;
+  &lt;li&gt;The credit note will be automatically generated and you can print, download or send it to your customer.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;New credit note&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on the ‘Credit notes’ tab in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Create new credit note’&lt;/li&gt;
+  &lt;li&gt;This will take you to our Document Editor, where you can add your details as needed.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">A credit note is the opposite of an invoice - it’s an official document to show your customer that a partial or full amount has been credited back to them. Credit notes are also known as return invoices in some countries. In effect, a credit note might either cancel an invoice out completely if it’s for the same amount as the invoice, or it might be for less than the invoice.</summary></entry><entry><title type="html">Remove Invoice Falcon watermark from your invoice &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html" rel="alternate" type="text/html" title="Remove Invoice Falcon watermark from your invoice &amp; emails" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Remove Watermark&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-watermark.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove watermark from your invoice &amp;amp; emails.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Disable the checkbox labelled ‘Show Invoice Falcon watermark in invoices &amp;amp; emails’ and click ‘Save’. After you click ‘Save’, your invoices will be updated automatically to reflect this change.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - This feature is available only on Pay-as-you-go, Superhero, Ultimate &amp;amp; Enterprise plans.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Remove Watermark section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Add a note for tax exemption to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html" rel="alternate" type="text/html" title="Add a note for tax exemption to your invoices" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html">&lt;p&gt;In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.&lt;/p&gt;
+
+&lt;p&gt;For example, in France, a business may need to place a message like this - ‘Ce magasin a choisi le régime de la franchise des petites entreprises,par conséquent,nous ne facturons pas de taxes’ (Translation - ‘This store has chosen the small business franchise regime, therefore we do not charge taxes’)&lt;/p&gt;
+
+&lt;p&gt;With Invoice Falcon, you can set this up in just a few simple clicks. Not only can you use this for your message related to tax exemption, &lt;b&gt;you can also use it to add a single line message to your customers.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Tax Compliance&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/img/design-invoice/footer-message.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add a note for tax exemption to your invoices&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Invoice Footer Message&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Enter your note for tax exemption in this field. Please note that this section does not accept multi-line paragraphs; it is best suited for a single line note that you’d like your customers to know about.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.</summary></entry><entry><title type="html">Remove shipping &amp;amp; billing addresses from your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html" rel="alternate" type="text/html" title="Remove shipping &amp; billing addresses from your invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html">&lt;p&gt;By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove shipping &amp;amp; billing address from invoice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide your address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your store’s address from the invoice, disable the checkbox labelled ‘Your Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Shipping address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s shipping address from the invoice, disable the checkbox labelled ‘Shipping Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Billing address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s billing address from the invoice, disable the checkbox labelled ‘Billing Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.</summary></entry><entry><title type="html">Automatically send invoices to your customers</title><link href="http://localhost:4000/send%20invoices/2020/03/11/automatic-send.html" rel="alternate" type="text/html" title="Automatically send invoices to your customers" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/11/automatic-send</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/11/automatic-send.html">&lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Automatic Invoices&lt;/strong&gt; tab on this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/automatic-customer.png&quot; alt=&quot;an image alt text&quot; title=&quot;Enable/disable automatic invoices to customers&quot; /&gt;&lt;/p&gt;
 
@@ -61,74 +229,7 @@ After enabling Automatic Invoices to customers, you can also choose to send invo
   &lt;li&gt;Select the type of status on which you’d like to send the invoice automatically. You can choose between payment, fulfilment and delivery statuses.&lt;/li&gt;
   &lt;li&gt;Next, select the appropriate status that you’d like to send it on. For example, if you’d like to send the invoice only when order is fully paid, select ‘Order is fully paid’ in the dropdown.&lt;/li&gt;
   &lt;li&gt;Click ‘Save Changes’ after you’re done. :)&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">Click on Email Settings in the left menu bar of our application &amp;amp; click on Automatic Invoices tab on this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Print or download the Invoice for a Shopify Order</title><link href="http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice.html" rel="alternate" type="text/html" title="Print or download the Invoice for a Shopify Order" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice</id><content type="html" xml:base="http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can print/download the invoice for an Order or the quote for a Draft Order on your Shopify Store.&lt;/p&gt;
-
-&lt;p&gt;While we do mention Invoice and Shopify Order throughout this article, please note that you can use these same steps to print Quotes for Draft Orders too.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;quick-action-from-the-invoicesquotes-list&quot;&gt;Quick action from the Invoices/Quotes list&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/quick-print.png&quot; alt=&quot;an image alt text&quot; title=&quot;Quick print an invoice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
-  &lt;li&gt;You can search for orders based on date range or financial status. You can also scroll through the pages of orders from here by clicking on the ‘Back’ and ‘Front’ keys at the bottom of this page.&lt;/li&gt;
-  &lt;li&gt;Once you’ve found the order you’re looking for, click on the button with the “Printer” icon on the right side of the row containing the order name.&lt;/li&gt;
-  &lt;li&gt;This will generate the invoice for the order and you can choose to print or download it to your computer.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;from-the-invoice-preview-page&quot;&gt;From the Invoice Preview page&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/preview-print.png&quot; alt=&quot;an image alt text&quot; title=&quot;Print invoice from Invoice Preview page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
-  &lt;li&gt;You can search for orders based on date range or financial status. You can also scroll through the pages of orders from here by clicking on the ‘Back’ and ‘Front’ keys at the bottom of this page.&lt;/li&gt;
-  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
-  &lt;li&gt;Next, click on ‘Print’ to print the invoice or ‘Download’ to download the invoice to your computer.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;from-your-shopify-dashboard&quot;&gt;From your Shopify dashboard&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/shopify-print-send-single.png&quot; alt=&quot;an image alt text&quot; title=&quot;Print invoice from your Shopify dashboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Orders’ in your Shopify dashboard.&lt;/li&gt;
-  &lt;li&gt;Click on the Order for which you’d like to print the invoice. This will take you to the Order details page on your Shopify dashboard.&lt;/li&gt;
-  &lt;li&gt;Next, click on ‘Actions’ -&amp;gt; ‘Send or Print Invoices’ (blue icon) underneath the Order name.&lt;/li&gt;
-  &lt;li&gt;This will automatically redirect you to the Invoice Preview page in our app, where the invoice will be generated and you can review it.&lt;/li&gt;
-  &lt;li&gt;Next, click on ‘Print’ to print the invoice or ‘Download’ to download the invoice to your computer.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Print/Download Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can print/download the invoice for an Order or the quote for a Draft Order on your Shopify Store.</summary></entry><entry><title type="html">Change text or labels in your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/11/edit-labels.html" rel="alternate" type="text/html" title="Change text or labels in your invoice" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/11/edit-labels</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/11/edit-labels.html">&lt;p&gt;By default, the headers and labels in your invoices will be based on the language you’ve selected in the ‘Invoice &amp;amp; Email Languages’ section of our app. Here, we’ll walk you through how you can change a specific label from the language default to one of your choice (for example, changing ‘Invoice’ to ‘Tax Invoice’).&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Titles &amp;amp; Labels&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/labels.png&quot; alt=&quot;an image alt text&quot; title=&quot;Change text or labels in your invoice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Search for the specific text or label that you’d like to edit. For example, if you’d like to change the ‘Subtotal’ label, hit Ctrl+F(or Cmd+F) and search for ‘Subtotal’ in your browser till you find the field you need.&lt;/li&gt;
-  &lt;li&gt;Enter your desired text in this field.&lt;/li&gt;
-  &lt;li&gt;The Invoice Preview on the right side of your screen will be automatically updated to reflect this change.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">By default, the headers and labels in your invoices will be based on the language you’ve selected in the ‘Invoice &amp;amp; Email Languages’ section of our app. Here, we’ll walk you through how you can change a specific label from the language default to one of your choice (for example, changing ‘Invoice’ to ‘Tax Invoice’).</summary></entry><entry><title type="html">Send the Invoice for a Shopify Order to your customer</title><link href="http://localhost:4000/send%20invoices/2020/03/11/send-invoice.html" rel="alternate" type="text/html" title="Send the Invoice for a Shopify Order to your customer" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/11/send-invoice</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/11/send-invoice.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can send the invoice for an Order or the quote for a Draft Order on your Shopify Store to your customer.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">Click on Email Settings in the left menu bar of our application &amp;amp; click on Automatic Invoices tab on this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Send the Invoice for a Shopify Order to your customer</title><link href="http://localhost:4000/send%20invoices/2020/03/11/send-invoice.html" rel="alternate" type="text/html" title="Send the Invoice for a Shopify Order to your customer" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/11/send-invoice</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/11/send-invoice.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can send the invoice for an Order or the quote for a Draft Order on your Shopify Store to your customer.&lt;/p&gt;
 
 &lt;p&gt;While we do mention Invoice and Shopify Order throughout this article, please note that you can use these same steps to print Quotes for Draft Orders too.&lt;/p&gt;
 
@@ -205,80 +306,22 @@ When turned on, Invoice Falcon will check the payment status of this invoice per
   &lt;li&gt;This will automatically redirect you to the Invoice Preview page in our app, where the invoice will be generated and you can review it.&lt;/li&gt;
   &lt;li&gt;Next, click on ‘Send’ &amp;amp; select the way you’d like to send the invoice to your customer.&lt;/li&gt;
   &lt;li&gt;Once done, this will generate and send the invoice to your customer.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can send the invoice for an Order or the quote for a Draft Order on your Shopify Store to your customer.</summary></entry><entry><title type="html">Print multiple copies of your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/10/invoice-copies.html" rel="alternate" type="text/html" title="Print multiple copies of your invoices" /><published>2020-03-10T00:00:00-04:00</published><updated>2020-03-10T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/10/invoice-copies</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/10/invoice-copies.html">&lt;p&gt;In some countries/regions, it may be required to save &amp;amp; send multiple copies like a ‘Duplicate’, ‘Triplicate’, ‘Customer Copy’ etc to comply with regulations. With Invoice Falcon, you can print/download multiple copies of an invoice. Not only that, but you can also choose to send a specific copy of the invoice to your customers.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can send the invoice for an Order or the quote for a Draft Order on your Shopify Store to your customer.</summary></entry><entry><title type="html">Print or download the Invoice for a Shopify Order</title><link href="http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice.html" rel="alternate" type="text/html" title="Print or download the Invoice for a Shopify Order" /><published>2020-03-11T00:00:00-04:00</published><updated>2020-03-11T00:00:00-04:00</updated><id>http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice</id><content type="html" xml:base="http://localhost:4000/print/download%20invoices/2020/03/11/print-invoice.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can print/download the invoice for an Order or the quote for a Draft Order on your Shopify Store.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/invoice-customer-copy.png&quot; alt=&quot;an image alt text&quot; title=&quot;customer copy&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;Here's how the name of the copy looks in your invoice.&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Invoice Number, Date &amp;amp; Copies&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;/assets/img/design-invoice/print-copies.png&quot; alt=&quot;an image alt text&quot; title=&quot;Copies of invoices&quot; /&gt;&lt;/p&gt;
-&lt;p style=&quot;text-align:center;&quot;&gt;Settings to print multiple copies and to set the name of the copy for your customer&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Default Copy Title&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This is the name of the copy that will be sent to your customers. When a copy name is added here, it will be shown next to the title at the top of your invoice.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Copy Names&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Here, you can enter a comma-separated list of copies that you’d like to print for every invoice. For example, if you’d like to print/download a Duplicate, Triplicate and Customer Copy for every invoice, you can enter the list like this - Duplicate,Triplicate,Customer Copy&lt;/p&gt;
-
-&lt;p&gt;Please note that all copies will be combined into a single PDF file when the invoice is printed/downloaded.&lt;/p&gt;
-
-&lt;p&gt;If you have set Copy Names but you have not set a Default Copy Title, the invoice sent to your customers from our app will not include a copy name. For a copy name to be shown when an invoice is sent, you will need to enter a Default Copy Title.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In some countries/regions, it may be required to save &amp;amp; send multiple copies like a ‘Duplicate’, ‘Triplicate’, ‘Customer Copy’ etc to comply with regulations. With Invoice Falcon, you can print/download multiple copies of an invoice. Not only that, but you can also choose to send a specific copy of the invoice to your customers.</summary></entry><entry><title type="html">Change the attachment/download filename for your invoices</title><link href="http://localhost:4000/send%20invoices/2020/03/10/change-invoice-filename.html" rel="alternate" type="text/html" title="Change the attachment/download filename for your invoices" /><published>2020-03-10T00:00:00-04:00</published><updated>2020-03-10T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/10/change-invoice-filename</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/10/change-invoice-filename.html">&lt;p&gt;When you download an invoice or send it to your customer from Invoice Falcon, the invoice is sent as a PDF with the file name being the name of the order. That is, if the order for which you are generating the invoice is ‘#1089’, then the filename will be ‘#1089.pdf’. In this article, we’ll walk you through how you can change this to a name of your choice.&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/filename.png&quot; alt=&quot;an image alt text&quot; title=&quot;Change filename&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the section labelled “Download/attachment filename”, you’ll find a text field where you can change the name of the PDF file. We’ve exposed a few liquid variables that you can use to further customise the name.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;{{shop.name}}&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This will resolve to the name of your Shopify store in the file name.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;{{order.name}}&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This variable will resolve to the name of the order for which the invoice was generated. For example - ‘IFS-1080-EN’, ‘#1089’ etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;{{invoice.number}}&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-This variable will resolve to the specific number of the invoice. Use this variable if you have a custom invoice numbering sequence or if you’re using a number prefix. For example - ‘ABRN1239090’, ‘INV-987899’&lt;/p&gt;
+&lt;p&gt;While we do mention Invoice and Shopify Order throughout this article, please note that you can use these same steps to print Quotes for Draft Orders too.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Example - if you’d like your filename to ‘FalconStore - Invoice ABRNH12340 for Order #1089’, then you can set up the text in the field as - ‘{{shop.name}} - Invoice {{invoice.number}} for Order {{order.name}}’&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">When you download an invoice or send it to your customer from Invoice Falcon, the invoice is sent as a PDF with the file name being the name of the order. That is, if the order for which you are generating the invoice is ‘#1089’, then the filename will be ‘#1089.pdf’. In this article, we’ll walk you through how you can change this to a name of your choice.</summary></entry><entry><title type="html">Bulk print invoices for your Shopify orders</title><link href="http://localhost:4000/print/download%20invoices/2020/03/10/bulk-print-invoices.html" rel="alternate" type="text/html" title="Bulk print invoices for your Shopify orders" /><published>2020-03-10T00:00:00-04:00</published><updated>2020-03-10T00:00:00-04:00</updated><id>http://localhost:4000/print/download%20invoices/2020/03/10/bulk-print-invoices</id><content type="html" xml:base="http://localhost:4000/print/download%20invoices/2020/03/10/bulk-print-invoices.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can print/download invoices for your Shopify orders in bulk. Time is of the essence! :)&lt;/p&gt;
-
-&lt;h4 id=&quot;filter-by-date-range-and-financial-status&quot;&gt;Filter by date range and financial status&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/print-range.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk print invoices by date range and financial status&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;quick-action-from-the-invoicesquotes-list&quot;&gt;Quick action from the Invoices/Quotes list&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/quick-print.png&quot; alt=&quot;an image alt text&quot; title=&quot;Quick print an invoice&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoices’ in the left menu bar of our application.&lt;/li&gt;
-  &lt;li&gt;Click on the ‘Date Range’ button and select the date range for which you’d like to filter your orders.&lt;/li&gt;
-  &lt;li&gt;You can also click on ‘Financial Status’ and select the order statuses to filter your orders further.&lt;/li&gt;
-  &lt;li&gt;Next click on the ‘Bulk Print’ button after the filters have been applied.&lt;/li&gt;
-  &lt;li&gt;Our system will receive and process a request to bulk print invoices for orders matching these filters.&lt;/li&gt;
-  &lt;li&gt;After the request is processed, click on ‘Bulk Print Batches’ in the left menu bar to download the PDF containing the invoices.&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
+  &lt;li&gt;You can search for orders based on date range or financial status. You can also scroll through the pages of orders from here by clicking on the ‘Back’ and ‘Front’ keys at the bottom of this page.&lt;/li&gt;
+  &lt;li&gt;Once you’ve found the order you’re looking for, click on the button with the “Printer” icon on the right side of the row containing the order name.&lt;/li&gt;
+  &lt;li&gt;This will generate the invoice for the order and you can choose to print or download it to your computer.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -286,16 +329,16 @@ This variable will resolve to the specific number of the invoice. Use this varia
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;select-two-or-more-orders&quot;&gt;Select two or more orders&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/print-select.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk print invoices by selecting them&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;from-the-invoice-preview-page&quot;&gt;From the Invoice Preview page&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/preview-print.png&quot; alt=&quot;an image alt text&quot; title=&quot;Print invoice from Invoice Preview page&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoices’ in the left menu bar of our application.&lt;/li&gt;
-  &lt;li&gt;Select two or more orders in the list of orders.&lt;/li&gt;
-  &lt;li&gt;Next, click on the ‘Print Invoices’ button.&lt;/li&gt;
-  &lt;li&gt;Our system will receive and process a request to bulk print invoices for orders matching your selection.&lt;/li&gt;
-  &lt;li&gt;After the request is processed, click on ‘Bulk Print Batches’ in the left menu bar to download the PDF containing the invoices.&lt;/li&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
+  &lt;li&gt;You can search for orders based on date range or financial status. You can also scroll through the pages of orders from here by clicking on the ‘Back’ and ‘Front’ keys at the bottom of this page.&lt;/li&gt;
+  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
+  &lt;li&gt;Next, click on ‘Print’ to print the invoice or ‘Download’ to download the invoice to your computer.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -304,108 +347,13 @@ This variable will resolve to the specific number of the invoice. Use this varia
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;from-your-shopify-dashboard&quot;&gt;From your Shopify dashboard&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/shopify-print-send-bulk.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk print invoices from your Shopify dashboard&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/shopify-print-send-single.png&quot; alt=&quot;an image alt text&quot; title=&quot;Print invoice from your Shopify dashboard&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Click on ‘Orders’ in your Shopify dashboard.&lt;/li&gt;
-  &lt;li&gt;Select two or more orders, or filter your orders with the options provided above the list.&lt;/li&gt;
-  &lt;li&gt;After selecting your orders, click on ‘Actions’ -&amp;gt; ‘Send or Print Invoices’ (blue icon).&lt;/li&gt;
-  &lt;li&gt;You will be redirected to our app with the same orders selected.&lt;/li&gt;
-  &lt;li&gt;Click on “Print Invoices” button&lt;/li&gt;
-  &lt;li&gt;Our system will receive and process a request to bulk print invoices for orders matching your selection.&lt;/li&gt;
-  &lt;li&gt;After the request is processed, click on ‘Bulk Print Batches’ in the left menu bar to download the PDF containing the invoices.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Print/Download Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can print/download invoices for your Shopify orders in bulk. Time is of the essence! :)</summary></entry><entry><title type="html">Bulk send invoices for Shopify orders to your customers</title><link href="http://localhost:4000/send%20invoices/2020/03/10/bulk-send-invoices.html" rel="alternate" type="text/html" title="Bulk send invoices for Shopify orders to your customers" /><published>2020-03-10T00:00:00-04:00</published><updated>2020-03-10T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/10/bulk-send-invoices</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/10/bulk-send-invoices.html">&lt;p&gt;In this article, we’ll walk you through multiple ways you can send invoices for Shopify orders to your customers in bulk. Time is of the essence! :)&lt;/p&gt;
-
-&lt;h4 id=&quot;filter-by-date-range-and-financial-status&quot;&gt;Filter by date range and financial status&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/send-range.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk send invoices by date range and financial status&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoices’ in the left menu bar of our application.&lt;/li&gt;
-  &lt;li&gt;Click on the ‘Date Range’ button and select the date range for which you’d like to filter your orders.&lt;/li&gt;
-  &lt;li&gt;You can also click on ‘Financial Status’ and select the order statuses to filter your orders further.&lt;/li&gt;
-  &lt;li&gt;Next click on the ‘Bulk Send’ button after the filters have been applied.&lt;/li&gt;
-  &lt;li&gt;Our system will receive the request and then send the invoices to your customers for all orders matching your selection.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;select-two-or-more-orders&quot;&gt;Select two or more orders&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/send-invoice/send-select.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk send invoices by selecting them&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoices’ in the left menu bar of our application.&lt;/li&gt;
-  &lt;li&gt;Select two or more orders in the list of orders.&lt;/li&gt;
-  &lt;li&gt;Next, click on the ‘Send Invoices’ button.&lt;/li&gt;
-  &lt;li&gt;Our system will receive the request and then send the invoices to your customers for all orders matching your selection.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;from-your-shopify-dashboard&quot;&gt;From your Shopify dashboard&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/shopify-print-send-bulk.png&quot; alt=&quot;an image alt text&quot; title=&quot;Bulk send invoices from your Shopify dashboard&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Orders’ in your Shopify dashboard.&lt;/li&gt;
-  &lt;li&gt;Select two or more orders, or filter your orders with the options provided above the list.&lt;/li&gt;
-  &lt;li&gt;After selecting your orders, click on ‘Actions’ -&amp;gt; ‘Send or Print Invoices’ (blue icon).&lt;/li&gt;
-  &lt;li&gt;You will be redirected to our app with the same orders selected.&lt;/li&gt;
-  &lt;li&gt;Click on “Send Invoices” button&lt;/li&gt;
-  &lt;li&gt;Our system will receive the request and then send the invoices to your customers for all orders matching your selection.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can send invoices for Shopify orders to your customers in bulk. Time is of the essence! :)</summary></entry><entry><title type="html">Set up the Packing Slip for your orders</title><link href="http://localhost:4000/packing%20slip/2020/03/10/packing-slip.html" rel="alternate" type="text/html" title="Set up the Packing Slip for your orders" /><published>2020-03-10T00:00:00-04:00</published><updated>2020-03-10T00:00:00-04:00</updated><id>http://localhost:4000/packing%20slip/2020/03/10/packing-slip</id><content type="html" xml:base="http://localhost:4000/packing%20slip/2020/03/10/packing-slip.html">&lt;p&gt;With Invoice Falcon, you can print packing slips for any of your documents. A packing slip specifies the items included in the order and is usually placed inside the box containing your customer’s purchases.&lt;/p&gt;
-
-&lt;p&gt;To print a packing slip for your order, click on the ‘Download Packing Slip’ button when previewing the invoice. This will automatically generate and open the packing slip for you to print/download.&lt;/p&gt;
-
-&lt;p&gt;To set up your packing slip, click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Packing Slip&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/packing-slip.png&quot; alt=&quot;an image alt text&quot; title=&quot;Packing Slip settings in Invoice Falcon&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Packing Slip Title&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enter the title of the packing slip document. By default, your packing slip’s title will be in the language you’ve set in the ‘Invoice &amp;amp; Email Languages’ section. You can override it here to set up one of your choice.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Order Number&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enable this checkbox to show the order number for which the packing slip was generated. The order number will be shown in the top section of the packing slip, underneath the title.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Vendor Name&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enable this checkbox to show the vendor name for the products in your packing slip.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Barcode&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enable this checkbox to show the barcode (text only) for the products in your packing slip.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Product image&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enable this checkbox to show the image for the products in your packing slip.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Item prices&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-By default, your packing slip will have the unit and total prices for each of the products in your order. Disable this checkbox to remove these prices.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Total and subtotal amounts&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-By default, your packing slip will have the overall total and subtotal amounts of the order. Disable this checkbox to remove these amounts.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Make sure to click ‘Save Changes’ after you’re done! Your existing packing slips will be automatically updated to include the changes you made here the next time it’s generated. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Packing Slip&quot;]" /><summary type="html">With Invoice Falcon, you can print packing slips for any of your documents. A packing slip specifies the items included in the order and is usually placed inside the box containing your customer’s purchases.</summary></entry></feed>
+  &lt;li&gt;Click on the Order for which you’d like to print the invoice. This will take you to the Order details page on your Shopify dashboard.&lt;/li&gt;
+  &lt;li&gt;Next, click on ‘Actions’ -&amp;gt; ‘Send or Print Invoices’ (blue icon) underneath the Order name.&lt;/li&gt;
+  &lt;li&gt;This will automatically redirect you to the Invoice Preview page in our app, where the invoice will be generated and you can review it.&lt;/li&gt;
+  &lt;li&gt;Next, click on ‘Print’ to print the invoice or ‘Download’ to download the invoice to your computer.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Print/Download Invoices&quot;]" /><summary type="html">In this article, we’ll walk you through multiple ways you can print/download the invoice for an Order or the quote for a Draft Order on your Shopify Store.</summary></entry></feed>
