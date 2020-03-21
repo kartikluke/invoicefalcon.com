@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Collect payments for unpaid invoices with Stripe | Invoice Falcon</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Collect payments for unpaid invoices with Stripe" />
+<meta name="author" content="622 Solutions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!" />
+<meta property="og:description" content="With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!" />
+<link rel="canonical" href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" />
+<meta property="og:url" content="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" />
+<meta property="og:site_name" content="Invoice Falcon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-20T00:00:00-04:00" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html","headline":"Collect payments for unpaid invoices with Stripe","dateModified":"2020-03-20T00:00:00-04:00","datePublished":"2020-03-20T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html"},"author":{"@type":"Person","name":"622 Solutions"},"description":"With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Invoice Falcon" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><img src="/assets/img/AppIcon.png" class="app-icon"/>
+    <a class="site-title" rel="author" href="/">Invoice Falcon</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/help.html">Help Center</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Collect payments for unpaid invoices with Stripe</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-03-20T00:00:00-04:00" itemprop="datePublished">Mar 20, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</p>
+
+<p>To send an email with a payment link for an invoice, please follow the steps below -</p>
+
+<p><br /></p>
+<h4 id="connect-invoice-falcon-to-your-stripe-account">Connect Invoice Falcon to your Stripe account</h4>
+
+<p><img src="/assets/img/payments/payment-stripe.png" alt="an image alt text" title="Connect Invoice Falcon to your Stripe account" /></p>
+
+<ol>
+  <li>Click on ‘Collect Payments’ in the left menu bar of our app.</li>
+  <li>Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp; send a payment link.</li>
+  <li>In a separate tab, head over to your Stripe dashboard by clicking on this link - <a href="https://dashboard.stripe.com">Stripe Dashboard</a> (or alternatively you can copy this link too - https://dashboard.stripe.com)</li>
+  <li>Click on ‘Developers’ -&gt; ‘API Keys’ in the left menu bar.</li>
+  <li>On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.</li>
+  <li>Click ‘Save Changes’</li>
+</ol>
+
+<p><br /></p>
+<hr />
+
+<p><br /></p>
+
+<h4 id="send-an-email-with-a-payment-link">Send an email with a payment link</h4>
+
+<p>Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.</p>
+
+<p><img src="/assets/img/payments/payment-email.png" alt="an image alt text" title="Send email with a payment link" /></p>
+
+<ol>
+  <li>Click on <strong>Invoices</strong> tab in the left menu bar of our app.</li>
+  <li>Here, you’ll find a list of all the orders from your Shopify store.</li>
+  <li>Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.</li>
+  <li>Click ‘Send’ -&gt; ‘Review &amp; Send’ from the dropdown</li>
+  <li><b>enable</b> the checkbox labelled ‘Send email with payment link’.</li>
+  <li>Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!</li>
+</ol>
+
+  </div><a class="u-url" href="/payments/2020/03/20/collect-payments-stripe.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <h2 class="footer-heading">Invoice Falcon</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">622 Solutions</li><li><a class="u-email" href="mailto:invoicefalcon.shopify@gmail.com">invoicefalcon.shopify@gmail.com</a></li><br/><li><a class="u-email" href="/faq.html">Frequently Asked Questions</a></li><li><a class="u-email" href="/policy.html">Privacy Policy</a></li><li><a class="u-email" href="/terms.html">Terms & Conditions</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Beautiful, professional invoices. Sent automatically.
+</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

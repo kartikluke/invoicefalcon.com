@@ -1,20 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-14T21:21:35-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Create Pro forma invoices on your Shopify store</title><link href="http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice.html" rel="alternate" type="text/html" title="Create Pro forma invoices on your Shopify store" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice.html">&lt;p&gt;A pro forma invoice is similar to an invoice, in that it includes almost exactly the same information as a normal invoice and is binding towards the final sale. The key difference is that a pro forma invoice is usually sent before a payment is made to make sure everything is in order.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-21T19:36:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Send payment reminders for unpaid invoices automatically</title><link href="http://localhost:4000/payments/2020/03/20/payment-reminders.html" rel="alternate" type="text/html" title="Send payment reminders for unpaid invoices automatically" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/payment-reminders</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/payment-reminders.html"></content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Collect payments for unpaid invoices with Stripe</title><link href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" rel="alternate" type="text/html" title="Collect payments for unpaid invoices with Stripe" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/collect-payments-stripe</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html">&lt;p&gt;With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!&lt;/p&gt;
 
-&lt;p&gt;In some countries or regions, it may be required that a pro forma invoice has to be sent to your customer before an official invoice is made.&lt;/p&gt;
+&lt;p&gt;To send an email with a payment link for an invoice, please follow the steps below -&lt;/p&gt;
 
-&lt;p&gt;With Invoice Falcon, you can create a pro forma invoice manually for orders outside your Shopify store.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;connect-invoice-falcon-to-your-stripe-account&quot;&gt;Connect Invoice Falcon to your Stripe account&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-stripe.png&quot; alt=&quot;an image alt text&quot; title=&quot;Connect Invoice Falcon to your Stripe account&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Collect Payments’ in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp;amp; send a payment link.&lt;/li&gt;
+  &lt;li&gt;In a separate tab, head over to your Stripe dashboard by clicking on this link - &lt;a href=&quot;https://dashboard.stripe.com&quot;&gt;Stripe Dashboard&lt;/a&gt; (or alternatively you can copy this link too - https://dashboard.stripe.com)&lt;/li&gt;
+  &lt;li&gt;Click on ‘Developers’ -&amp;gt; ‘API Keys’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.&lt;/li&gt;
+  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;send-an-email-with-a-payment-link&quot;&gt;Send an email with a payment link&lt;/h4&gt;
+
+&lt;p&gt;Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send email with a payment link&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
+  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
+  &lt;li&gt;Click ‘Send’ -&amp;gt; ‘Review &amp;amp; Send’ from the dropdown&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;enable&lt;/b&gt; the checkbox labelled ‘Send email with payment link’.&lt;/li&gt;
+  &lt;li&gt;Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</summary></entry><entry><title type="html">Edit an invoice to update its details</title><link href="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html" rel="alternate" type="text/html" title="Edit an invoice to update its details" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/20/edit-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html">&lt;h4 id=&quot;1-start-editing-an-invoice&quot;&gt;1. Start editing an invoice&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-button.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit button&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Create a pro forma invoice&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on the ‘Pro forma invoices’ tab in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Create new pro forma invoice’&lt;/li&gt;
-  &lt;li&gt;This will take you to our Document Editor, where you can add your details as needed.&lt;/li&gt;
-  &lt;li&gt;After adding your details, click ‘View Document’ to generate the PDF.&lt;/li&gt;
-  &lt;li&gt;Finally, click ‘Print’ to print the invoice or ‘Send’ to send it to your customer.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">A pro forma invoice is similar to an invoice, in that it includes almost exactly the same information as a normal invoice and is binding towards the final sale. The key difference is that a pro forma invoice is usually sent before a payment is made to make sure everything is in order.</summary></entry><entry><title type="html">Add a purchase order number to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html" rel="alternate" type="text/html" title="Add a purchase order number to your invoices" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html">&lt;p&gt;With Invoice Falcon, you can add a purchase order number to your existing invoices manually. You can also choose to let your customers add in their purchase order number at checkout and then have it shown on the invoice automatically.&lt;/p&gt;
+To begin editing or making changes to an invoice, click on the purple ‘Edit Document’ button when you are viewing an invoice in the Invoice Preview page. This button will be visible on the right side of your screen as shown above, and it will take you to our Document Editor page.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-add-important-details-to-your-invoice&quot;&gt;2. Add important details to your invoice&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-details.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit important details&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+The Document Editor consists of many sections, each built for changing specific details in your invoice. In the first section, you can choose your customer and update important details of the invoice like Purchase Order number and due date. We’ve highlighted a few of them here below -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Payment Terms&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Select from a set of payment terms for your invoice like NET30, NET60, NET90 and more. Payment terms will be shown in the top section of your invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Payment/Due Date&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Select a date by when your customer needs to complete payment for the invoice. This date will be auto-filled if you choose a Payment Term after you’ve entered an Issue Date.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Purchase Order Number&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+If your customer needs a purchase order reference in their invoice, you can enter it here. Purchase order #, like payment terms, is shown in the top section of the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Status&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Select from a list of payment statuses for your invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Currency&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Change the currency of your invoice. Please note that changing the currency does not update the amounts based on live exchange rates. It only updates the currency in which the invoice will be sent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Invoice Language&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+If you need to send the invoice to your customer in a language other than your default one, select it from the dropdown here.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-update-addresses-and-add-custom-information&quot;&gt;3. Update addresses and add custom information&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-address-custom.png&quot; alt=&quot;an image alt text&quot; title=&quot;Update addresses and add custom information&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To add or update the shipping address, click the ‘Add address’ (or ‘Edit address’) button in the ‘Ship To’ section. Similarly, to add or update the billing address, click the button in the ‘Bill To’ section. Clicking these buttons will open a popup where you can make your changes and save it on the invoice.&lt;/p&gt;
+
+&lt;p&gt;With Invoice Falcon, you can also add very specific custom information to the invoice. This custom information can be presented to your customer as a Header:Subtitle combination. For example, you can add a detail like ‘Shipping Date: 29th Feb, 2020’ or ‘Tracking #: ‘ABGN12345XXX’.&lt;/p&gt;
+
+&lt;p&gt;To add a custom detail, click on the ‘Edit Custom Fields’ button in the custom details section. This will open a popup where you can add your information and save it on the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-addedit-products-prices-and-quantities&quot;&gt;4. Add/edit products, prices and quantities&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-products.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add/edit products, prices and quantities&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this section, you can add/edit/remove products and their prices, quantities and associated discounts and taxes. Here, we’ve highlighted a few of the actions you can perform -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Add a product&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To add a product to your invoice, click on the ‘Add Product’ button in the left side underneath the list of products. This will open a popup, where you can select a product from your store or enter custom product details, and save it onto the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Edit name, price or quantity&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Click on the ‘Edit Product’ in the right side of the row containing the product you want to make changes to. This will open a popup, where you can make your changes and save it onto the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Add a discount&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To add a discount to the product, click on ‘Add Discount’. This will open a popup where you can enter the discount details and save it onto the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Add a tax rate&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To add a tax rate to the product, click on ‘Add Tax’. This will open a popup where you can enter the tax name &amp;amp; rate, and save it onto the invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Remove Product&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To completely remove this product from your invoice, click on the ‘Delete Item’ button.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Set a tax rate for all items&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To set a tax rate for all the items in your invoice, click on ‘Set tax rate for all items’. This will open a popup where you can select from your saved tax rates or enter a new one.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-add-shipping-details-or-a-note&quot;&gt;4. Add shipping details or a note&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-shipping-note.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add shipping details or a note&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Add a shipping method&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To add a shipping method and its price to your invoice, click on the ‘Add Shipping Method’ button underneath the list of the products on this page. This will open a popup, where you can add the name of the method as well as the price, and save it onto the invoice.&lt;/p&gt;
+
+&lt;p&gt;To edit an existing shipping method, click the ‘Edit’ button next to the name of the shipping method.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Add a note&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To add a note containing payment-related, terms and conditions or any other information to your invoice, click on the ‘Edit Note’ button.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">1. Start editing an invoice</summary></entry><entry><title type="html">Add a purchase order number to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html" rel="alternate" type="text/html" title="Add a purchase order number to your invoices" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html">&lt;p&gt;With Invoice Falcon, you can add a purchase order number to your existing invoices manually. You can also choose to let your customers add in their purchase order number at checkout and then have it shown on the invoice automatically.&lt;/p&gt;
 
 &lt;p&gt;In invoices generated by Invoice Falcon, the purchase order number is shown in the top section of the invoice underneath the title.&lt;/p&gt;
 
@@ -84,14 +224,55 @@ Enable the checkbox labelled ‘Product image’ on this page. If the product is
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Product Details section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Remove Invoice Falcon watermark from your invoice &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html" rel="alternate" type="text/html" title="Remove Invoice Falcon watermark from your invoice &amp; emails" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Remove Watermark&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Product Details section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Create Pro forma invoices on your Shopify store</title><link href="http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice.html" rel="alternate" type="text/html" title="Create Pro forma invoices on your Shopify store" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/14/pro-forma-invoice.html">&lt;p&gt;A pro forma invoice is similar to an invoice, in that it includes almost exactly the same information as a normal invoice and is binding towards the final sale. The key difference is that a pro forma invoice is usually sent before a payment is made to make sure everything is in order.&lt;/p&gt;
+
+&lt;p&gt;In some countries or regions, it may be required that a pro forma invoice has to be sent to your customer before an official invoice is made.&lt;/p&gt;
+
+&lt;p&gt;With Invoice Falcon, you can create a pro forma invoice manually for orders outside your Shopify store.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Create a pro forma invoice&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on the ‘Pro forma invoices’ tab in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;Click on ‘Create new pro forma invoice’&lt;/li&gt;
+  &lt;li&gt;This will take you to our Document Editor, where you can add your details as needed.&lt;/li&gt;
+  &lt;li&gt;After adding your details, click ‘View Document’ to generate the PDF.&lt;/li&gt;
+  &lt;li&gt;Finally, click ‘Print’ to print the invoice or ‘Send’ to send it to your customer.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">A pro forma invoice is similar to an invoice, in that it includes almost exactly the same information as a normal invoice and is binding towards the final sale. The key difference is that a pro forma invoice is usually sent before a payment is made to make sure everything is in order.</summary></entry><entry><title type="html">Remove Invoice Falcon watermark from your invoice &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html" rel="alternate" type="text/html" title="Remove Invoice Falcon watermark from your invoice &amp; emails" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Remove Watermark&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-watermark.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove watermark from your invoice &amp;amp; emails.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Disable the checkbox labelled ‘Show Invoice Falcon watermark in invoices &amp;amp; emails’ and click ‘Save’. After you click ‘Save’, your invoices will be updated automatically to reflect this change.&lt;/p&gt;
 
-&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - This feature is available only on Pay-as-you-go, Superhero, Ultimate &amp;amp; Enterprise plans.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Remove Watermark section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Get a PDF invoice for every order in your store automatically</title><link href="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html" rel="alternate" type="text/html" title="Get a PDF invoice for every order in your store automatically" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html">&lt;p&gt;With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - This feature is available only on Pay-as-you-go, Superhero, Ultimate &amp;amp; Enterprise plans.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Remove Watermark section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Remove shipping &amp;amp; billing addresses from your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html" rel="alternate" type="text/html" title="Remove shipping &amp; billing addresses from your invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html">&lt;p&gt;By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove shipping &amp;amp; billing address from invoice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide your address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your store’s address from the invoice, disable the checkbox labelled ‘Your Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Shipping address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s shipping address from the invoice, disable the checkbox labelled ‘Shipping Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Billing address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s billing address from the invoice, disable the checkbox labelled ‘Billing Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.</summary></entry><entry><title type="html">Get a PDF invoice for every order in your store automatically</title><link href="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html" rel="alternate" type="text/html" title="Get a PDF invoice for every order in your store automatically" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically</id><content type="html" xml:base="http://localhost:4000/send%20invoices/2020/03/13/receive-invoice-automatically.html">&lt;p&gt;With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!&lt;/p&gt;
 
 &lt;p&gt;Click on &lt;strong&gt;Email Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Automatic Invoices&lt;/strong&gt; tab in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
@@ -158,118 +339,4 @@ By default, all discounts applied on your products and orders are split &amp;amp
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -</summary></entry><entry><title type="html">Add your customer’s tax/VAT number to the invoice</title><link href="http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number.html" rel="alternate" type="text/html" title="Add your customer's tax/VAT number to the invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number</id><content type="html" xml:base="http://localhost:4000/manage%20customers/2020/03/13/customer-vat-number.html">&lt;h4 id=&quot;from-invoice-falcon&quot;&gt;From Invoice Falcon&lt;/h4&gt;
-&lt;p&gt;When you generate an invoice for an order with Invoice Falcon, your customer’s details get automatically saved into our app. After your customer is visible in the ‘Customers’ list of our app, you can add their tax registration/VAT number and it will be shown on the invoices for all their future purchases.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/customer-tax.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add your customer's tax/VAT number to the invoice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Search for the customer for whom you’d like to add the tax registraation/VAT number in the ‘Customers’ tab.&lt;/li&gt;
-  &lt;li&gt;Click ‘Edit Details’ button on the right side of the row containing the customer’s name.&lt;/li&gt;
-  &lt;li&gt;In the field labelled ‘VAT/Tax number’, enter the customer’s tax registration/VAT number like this - ‘VAT: XXXX123456’.&lt;/li&gt;
-  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
-  &lt;li&gt;Your existing invoices will be automatically updated to show the customer’s number underneath their billing address.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;during-checkout&quot;&gt;During checkout&lt;/h4&gt;
-&lt;p&gt;You can include a VAT/Tax Number field on your cart page so that your customers can enter their VAT number just before checkout. These numbers will be stored as cart attributes. We will then automatically pick up this number saved in the order and show it in the invoice.&lt;/p&gt;
-
-&lt;p&gt;To add this field to your cart page, please follow these steps below -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Online Store’ -&amp;gt; ‘Themes’ in your Shopify dashboard.&lt;/li&gt;
-  &lt;li&gt;Next, click on ‘Actions’ -&amp;gt; ‘Edit Code’&lt;/li&gt;
-  &lt;li&gt;Search for and click on the file labelled &lt;strong&gt;cart.liquid&lt;/strong&gt; or &lt;strong&gt;cart-template.liquid&lt;/strong&gt; (depending on your theme file)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Insert this snippet of code into this file in the section containing the ‘Update’ &amp;amp; ‘Checkout’ buttons -&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- Invoice Falcon VAT code START --&amp;gt;
- &amp;lt;input type=&quot;text&quot; name=&quot;attributes[vat-id]&quot; placeholder=&quot;Enter your VAT #&quot; value=&quot;{{ cart.attributes['vat-id'] }}&quot; /&amp;gt;
- &amp;lt;!-- Invoice Falcon VAT code END --&amp;gt;&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Click ‘Save’ in the file editor. That’s it!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here is what the code will look like in your file after you add the snippet -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/print-invoice/customer-tax-code.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add your customer's tax/VAT number to the invoice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;using-exemptify&quot;&gt;Using Exemptify&lt;/h4&gt;
-&lt;p&gt;If you’d like to avoid the hassle of modifying your theme files, we’d highly recommend that you check out Exemptify (&lt;a href=&quot;https://apps.shopify.com/exemptify&quot;&gt;Link&lt;/a&gt;) from our friends at Modules4U! Exemptify contains plenty of features that automatically captures and validates your customer’s VAT IDs. These IDs are then sent in your Shopify order details to us and they will automatically appear on the order’s invoices when you generate them.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Manage Customers&quot;]" /><summary type="html">From Invoice Falcon When you generate an invoice for an order with Invoice Falcon, your customer’s details get automatically saved into our app. After your customer is visible in the ‘Customers’ list of our app, you can add their tax registration/VAT number and it will be shown on the invoices for all their future purchases.</summary></entry><entry><title type="html">Create Credit notes for refunded/cancelled orders</title><link href="http://localhost:4000/create%20invoices/2020/03/13/create-credit-note.html" rel="alternate" type="text/html" title="Create Credit notes for refunded/cancelled orders" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/13/create-credit-note</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/13/create-credit-note.html">&lt;p&gt;A credit note is the opposite of an invoice - it’s an official document to show your customer that a partial or full amount has been credited back to them. Credit notes are also known as return invoices in some countries. In effect, a credit note might either cancel an invoice out completely if it’s for the same amount as the invoice, or it might be for less than the invoice.&lt;/p&gt;
-
-&lt;p&gt;In Invoice Falcon, credit notes have the same structure and template as your invoices. They will follow the same design settings as that of your invoices, with only minor changes/updates to reflect that it’s a credit note and not an actual invoice.&lt;/p&gt;
-
-&lt;p&gt;You can manually generate credit notes for any invoice in Invoice Falcon. Follow these steps below to do so -&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Credit note for existing invoices/orders&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;To create a credit note for an existing invoice or order, click on the ‘Invoices’ tab in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Next, click on the order name/invoice number.&lt;/li&gt;
-  &lt;li&gt;This will take you to the Invoice Preview page.&lt;/li&gt;
-  &lt;li&gt;Click on ‘More’ dropdown -&amp;gt; ‘Create Credit Note’&lt;/li&gt;
-  &lt;li&gt;The credit note will be automatically generated and you can print, download or send it to your customer.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;New credit note&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on the ‘Credit notes’ tab in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Create new credit note’&lt;/li&gt;
-  &lt;li&gt;This will take you to our Document Editor, where you can add your details as needed.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">A credit note is the opposite of an invoice - it’s an official document to show your customer that a partial or full amount has been credited back to them. Credit notes are also known as return invoices in some countries. In effect, a credit note might either cancel an invoice out completely if it’s for the same amount as the invoice, or it might be for less than the invoice.</summary></entry><entry><title type="html">Add a note for tax exemption to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html" rel="alternate" type="text/html" title="Add a note for tax exemption to your invoices" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html">&lt;p&gt;In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.&lt;/p&gt;
-
-&lt;p&gt;For example, in France, a business may need to place a message like this - ‘Ce magasin a choisi le régime de la franchise des petites entreprises,par conséquent,nous ne facturons pas de taxes’ (Translation - ‘This store has chosen the small business franchise regime, therefore we do not charge taxes’)&lt;/p&gt;
-
-&lt;p&gt;With Invoice Falcon, you can set this up in just a few simple clicks. Not only can you use this for your message related to tax exemption, &lt;b&gt;you can also use it to add a single line message to your customers.&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Tax Compliance&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/assets/img/design-invoice/footer-message.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add a note for tax exemption to your invoices&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Invoice Footer Message&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enter your note for tax exemption in this field. Please note that this section does not accept multi-line paragraphs; it is best suited for a single line note that you’d like your customers to know about.&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.</summary></entry><entry><title type="html">Remove shipping &amp;amp; billing addresses from your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html" rel="alternate" type="text/html" title="Remove shipping &amp; billing addresses from your invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html">&lt;p&gt;By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove shipping &amp;amp; billing address from invoice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Show/hide your address&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-To hide your store’s address from the invoice, disable the checkbox labelled ‘Your Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Show/hide Shipping address&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-To hide your customer’s shipping address from the invoice, disable the checkbox labelled ‘Shipping Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Show/hide Billing address&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-To hide your customer’s billing address from the invoice, disable the checkbox labelled ‘Billing Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.</summary></entry></feed>
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -</summary></entry></feed>
