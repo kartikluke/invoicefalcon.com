@@ -1,129 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-21T20:04:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
-</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Send payment reminders for unpaid invoices automatically</title><link href="http://localhost:4000/payments/2020/03/20/payment-reminders.html" rel="alternate" type="text/html" title="Send payment reminders for unpaid invoices automatically" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/payment-reminders</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/payment-reminders.html">&lt;p&gt;Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-25T18:58:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+</subtitle><author><name>622 Solutions</name></author><entry><title type="html">Add your logo to the invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/25/invoice-logo.html" rel="alternate" type="text/html" title="Add your logo to the invoice" /><published>2020-03-25T00:00:00-04:00</published><updated>2020-03-25T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/25/invoice-logo</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/25/invoice-logo.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Logo&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
-&lt;p&gt;In this article, we’ve outlined the settings available to you to send a payment reminder email to your customer.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;1-enable-payment-reminders&quot;&gt;1. Enable Payment Reminders&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-toggle.png&quot; alt=&quot;an image alt text&quot; title=&quot;Enable Payment Reminders&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To enable manual &amp;amp; automatic payment reminder emails to your customers, click on the ‘Enable’ button in the ‘Enable/disable all payment reminders’ section.&lt;/p&gt;
-
-&lt;p&gt;When this toggle is enabled but the ‘Automatic Payment Reminders’ is disabled, you can send a payment reminder email for a specific invoice by clicking ‘Send’ -&amp;gt; ‘Turn on Payment Reminders’.&lt;/p&gt;
-
-&lt;p&gt;Please note that if this toggle is disabled, payment reminders of both types, manual and automatic, will NOT be sent to your customer.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;2-add-your-reminder-email-template&quot;&gt;2. Add your reminder email template&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add payment reminder email template&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, at this time, we do not have a default email subject &amp;amp; body for the reminder template. If you wish to send payment reminder emails to your customer, please set up your email template in this section.&lt;/p&gt;
-
-&lt;p&gt;We’ve provided a few liquid variables that you can use in your reminder email template. Please note that these variables need to be exactly as they look in the Variables section. If they are not as specified, there may be issues with sending the emails to your customer.&lt;/p&gt;
-
-&lt;p&gt;To use a liquid variable in your template, simply copy the variable you need by selecting the text, pressing Ctrl+C or Cmd+C and then pressing Ctrl+V or Cmd+V in any of the fields.&lt;/p&gt;
-
-&lt;p&gt;When the email is sent to your customer, these fields will be resolved and replaced with the actual data for that invoice.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/invoice-logo.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add your logo to the invoice&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;How do I use the {% if invoice.requires_payment %} variable?&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;Add your logo&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-This variable is designed to add a Stripe payment link to the invoice email. When this variable is added to your template, a piece of text (asking your customer to pay) and a link to complete the payment will be shown to your customer.&lt;/p&gt;
+To add your logo to the invoice, click on ‘Upload Image’ and select the image you’d like. The image will be uploaded to our system and it will show up in the preview section on the right side of the page.&lt;/p&gt;
 
-&lt;p&gt;Please note that setting up this payment link requires an Ultimate subscription and a Stripe account.&lt;/p&gt;
-
-&lt;p&gt;To use this variable, please copy the following snippet of code to your email template -&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if invoice.requires_payment %}
-Please complete the payment for your order by clicking on this link - {{ invoice.payment_link }}
-{% endif %}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Note - You can replace the text ‘Please complete the payment for your order by clicking on this link’ with any text of your choice. When updating this text, please ensure that ‘- {{ invoice.payment_link }}’ is still present at the end of that line.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;3-set-your-schedule&quot;&gt;3. Set your schedule&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-settings.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add payment reminder email template&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As soon as you add your logo, your existing documents will be updated automatically to include the logo.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Reminder Email CC&lt;/u&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;u&gt;Remove your logo&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-To receive a copy of the reminder email when it is sent to your customer, enter the email addresses in the ‘CC email addresses’ field in this section.&lt;/p&gt;
-
-&lt;p&gt;If you want to send payment reminders for unpaid/due invoices to yourself and not to your customer, enable the checkbox labelled ‘Send all payment reminders to these email addresses only.’&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Schedule Reminders&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Here, you can set how often the reminder email should be sent by entering a certain number of days in the ‘Send reminder every X days’. You can also choose to send the reminder email before or after the due date by selecting from the ‘Send reminder’ dropdown below.&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’ve selected your settings.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;4-automatically-track-unpaid-orders-and-send-payment-reminders&quot;&gt;4. Automatically track unpaid orders and send payment reminders&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-automatic.png&quot; alt=&quot;an image alt text&quot; title=&quot;Automatically track unpaid orders and send payment reminders&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Enable this setting to let Invoice Falcon track your every order in your store in the background and automatically send payment reminders for orders that are not fully paid.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;5-send-a-payment-link-in-all-payment-reminder-emails&quot;&gt;5. Send a payment link in all payment reminder emails&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-payment-link.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send a payment link in all payment reminder emails&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Enable/disable this setting to show a Stripe payment link in all reminder emails sent to your customers. Please note that this feature requires a Stripe account connected to Invoice Falcon.&lt;/p&gt;
-
-&lt;p&gt;After enabling this setting, a snippet of code needs to be added to your reminder email template. Please see ‘#2 - Add your reminder email template’ section above to add the required snippet to your template.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.</summary></entry><entry><title type="html">Collect payments for unpaid invoices with Stripe</title><link href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" rel="alternate" type="text/html" title="Collect payments for unpaid invoices with Stripe" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/collect-payments-stripe</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html">&lt;p&gt;With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!&lt;/p&gt;
-
-&lt;p&gt;To send an email with a payment link for an invoice, please follow the steps below -&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;connect-invoice-falcon-to-your-stripe-account&quot;&gt;Connect Invoice Falcon to your Stripe account&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-stripe.png&quot; alt=&quot;an image alt text&quot; title=&quot;Connect Invoice Falcon to your Stripe account&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Collect Payments’ in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp;amp; send a payment link.&lt;/li&gt;
-  &lt;li&gt;In a separate tab, head over to your Stripe dashboard by clicking on this link - &lt;a href=&quot;https://dashboard.stripe.com&quot;&gt;Stripe Dashboard&lt;/a&gt; (or alternatively you can copy this link too - https://dashboard.stripe.com)&lt;/li&gt;
-  &lt;li&gt;Click on ‘Developers’ -&amp;gt; ‘API Keys’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.&lt;/li&gt;
-  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;send-an-email-with-a-payment-link&quot;&gt;Send an email with a payment link&lt;/h4&gt;
-
-&lt;p&gt;Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send email with a payment link&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
-  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
-  &lt;li&gt;Click ‘Send’ -&amp;gt; ‘Review &amp;amp; Send’ from the dropdown&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;enable&lt;/b&gt; the checkbox labelled ‘Send email with payment link’.&lt;/li&gt;
-  &lt;li&gt;Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</summary></entry><entry><title type="html">Edit an invoice to update its details</title><link href="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html" rel="alternate" type="text/html" title="Edit an invoice to update its details" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/20/edit-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html">&lt;h4 id=&quot;1-start-editing-an-invoice&quot;&gt;1. Start editing an invoice&lt;/h4&gt;
+To remove your logo, click ‘Remove Logo’. This will remove the logo and your existing documents will be updated automatically to remove it.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Logo section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Edit an invoice to update its details</title><link href="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html" rel="alternate" type="text/html" title="Edit an invoice to update its details" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/20/edit-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html">&lt;h4 id=&quot;1-start-editing-an-invoice&quot;&gt;1. Start editing an invoice&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-button.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit button&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
@@ -242,7 +132,131 @@ To add a shipping method and its price to your invoice, click on the ‘Add Ship
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;u&gt;Add a note&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-To add a note containing payment-related, terms and conditions or any other information to your invoice, click on the ‘Edit Note’ button.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">1. Start editing an invoice</summary></entry><entry><title type="html">Add a purchase order number to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html" rel="alternate" type="text/html" title="Add a purchase order number to your invoices" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html">&lt;p&gt;With Invoice Falcon, you can add a purchase order number to your existing invoices manually. You can also choose to let your customers add in their purchase order number at checkout and then have it shown on the invoice automatically.&lt;/p&gt;
+To add a note containing payment-related, terms and conditions or any other information to your invoice, click on the ‘Edit Note’ button.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Create invoices&quot;]" /><summary type="html">1. Start editing an invoice</summary></entry><entry><title type="html">Collect payments for unpaid invoices with Stripe</title><link href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" rel="alternate" type="text/html" title="Collect payments for unpaid invoices with Stripe" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/collect-payments-stripe</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html">&lt;p&gt;With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!&lt;/p&gt;
+
+&lt;p&gt;To send an email with a payment link for an invoice, please follow the steps below -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;connect-invoice-falcon-to-your-stripe-account&quot;&gt;Connect Invoice Falcon to your Stripe account&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-stripe.png&quot; alt=&quot;an image alt text&quot; title=&quot;Connect Invoice Falcon to your Stripe account&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Collect Payments’ in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp;amp; send a payment link.&lt;/li&gt;
+  &lt;li&gt;In a separate tab, head over to your Stripe dashboard by clicking on this link - &lt;a href=&quot;https://dashboard.stripe.com&quot;&gt;Stripe Dashboard&lt;/a&gt; (or alternatively you can copy this link too - https://dashboard.stripe.com)&lt;/li&gt;
+  &lt;li&gt;Click on ‘Developers’ -&amp;gt; ‘API Keys’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.&lt;/li&gt;
+  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;send-an-email-with-a-payment-link&quot;&gt;Send an email with a payment link&lt;/h4&gt;
+
+&lt;p&gt;Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send email with a payment link&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
+  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
+  &lt;li&gt;Click ‘Send’ -&amp;gt; ‘Review &amp;amp; Send’ from the dropdown&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;enable&lt;/b&gt; the checkbox labelled ‘Send email with payment link’.&lt;/li&gt;
+  &lt;li&gt;Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</summary></entry><entry><title type="html">Send payment reminders for unpaid invoices automatically</title><link href="http://localhost:4000/payments/2020/03/20/payment-reminders.html" rel="alternate" type="text/html" title="Send payment reminders for unpaid invoices automatically" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/payment-reminders</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/payment-reminders.html">&lt;p&gt;Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.&lt;/p&gt;
+
+&lt;p&gt;In this article, we’ve outlined the settings available to you to send a payment reminder email to your customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-enable-payment-reminders&quot;&gt;1. Enable Payment Reminders&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-toggle.png&quot; alt=&quot;an image alt text&quot; title=&quot;Enable Payment Reminders&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To enable manual &amp;amp; automatic payment reminder emails to your customers, click on the ‘Enable’ button in the ‘Enable/disable all payment reminders’ section.&lt;/p&gt;
+
+&lt;p&gt;When this toggle is enabled but the ‘Automatic Payment Reminders’ is disabled, you can send a payment reminder email for a specific invoice by clicking ‘Send’ -&amp;gt; ‘Turn on Payment Reminders’.&lt;/p&gt;
+
+&lt;p&gt;Please note that if this toggle is disabled, payment reminders of both types, manual and automatic, will NOT be sent to your customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-add-your-reminder-email-template&quot;&gt;2. Add your reminder email template&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add payment reminder email template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, at this time, we do not have a default email subject &amp;amp; body for the reminder template. If you wish to send payment reminder emails to your customer, please set up your email template in this section.&lt;/p&gt;
+
+&lt;p&gt;We’ve provided a few liquid variables that you can use in your reminder email template. Please note that these variables need to be exactly as they look in the Variables section. If they are not as specified, there may be issues with sending the emails to your customer.&lt;/p&gt;
+
+&lt;p&gt;To use a liquid variable in your template, simply copy the variable you need by selecting the text, pressing Ctrl+C or Cmd+C and then pressing Ctrl+V or Cmd+V in any of the fields.&lt;/p&gt;
+
+&lt;p&gt;When the email is sent to your customer, these fields will be resolved and replaced with the actual data for that invoice.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;How do I use the {% if invoice.requires_payment %} variable?&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+This variable is designed to add a Stripe payment link to the invoice email. When this variable is added to your template, a piece of text (asking your customer to pay) and a link to complete the payment will be shown to your customer.&lt;/p&gt;
+
+&lt;p&gt;Please note that setting up this payment link requires an Ultimate subscription and a Stripe account.&lt;/p&gt;
+
+&lt;p&gt;To use this variable, please copy the following snippet of code to your email template -&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if invoice.requires_payment %}
+Please complete the payment for your order by clicking on this link - {{ invoice.payment_link }}
+{% endif %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Note - You can replace the text ‘Please complete the payment for your order by clicking on this link’ with any text of your choice. When updating this text, please ensure that ‘- {{ invoice.payment_link }}’ is still present at the end of that line.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-set-your-schedule&quot;&gt;3. Set your schedule&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-settings.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add payment reminder email template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Reminder Email CC&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To receive a copy of the reminder email when it is sent to your customer, enter the email addresses in the ‘CC email addresses’ field in this section.&lt;/p&gt;
+
+&lt;p&gt;If you want to send payment reminders for unpaid/due invoices to yourself and not to your customer, enable the checkbox labelled ‘Send all payment reminders to these email addresses only.’&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Schedule Reminders&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+Here, you can set how often the reminder email should be sent by entering a certain number of days in the ‘Send reminder every X days’. You can also choose to send the reminder email before or after the due date by selecting from the ‘Send reminder’ dropdown below.&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’ve selected your settings.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;4-automatically-track-unpaid-orders-and-send-payment-reminders&quot;&gt;4. Automatically track unpaid orders and send payment reminders&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-automatic.png&quot; alt=&quot;an image alt text&quot; title=&quot;Automatically track unpaid orders and send payment reminders&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enable this setting to let Invoice Falcon track your every order in your store in the background and automatically send payment reminders for orders that are not fully paid.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;5-send-a-payment-link-in-all-payment-reminder-emails&quot;&gt;5. Send a payment link in all payment reminder emails&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/reminder-payment-link.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send a payment link in all payment reminder emails&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enable/disable this setting to show a Stripe payment link in all reminder emails sent to your customers. Please note that this feature requires a Stripe account connected to Invoice Falcon.&lt;/p&gt;
+
+&lt;p&gt;After enabling this setting, a snippet of code needs to be added to your reminder email template. Please see ‘#2 - Add your reminder email template’ section above to add the required snippet to your template.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.</summary></entry><entry><title type="html">Add a purchase order number to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html" rel="alternate" type="text/html" title="Add a purchase order number to your invoices" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/14/purchase-order-number.html">&lt;p&gt;With Invoice Falcon, you can add a purchase order number to your existing invoices manually. You can also choose to let your customers add in their purchase order number at checkout and then have it shown on the invoice automatically.&lt;/p&gt;
 
 &lt;p&gt;In invoices generated by Invoice Falcon, the purchase order number is shown in the top section of the invoice underneath the title.&lt;/p&gt;
 
@@ -373,58 +387,4 @@ Enter the email address(s) where you’d like to receive the invoice. When you e
 
 &lt;p&gt;Please note that this feature works completely independent of ‘Automatic Invoicing - Customers’. This means that if you enter an email address here but automatic invoices to customers is disabled, you will receive the PDF invoice at this mentioned address.&lt;/p&gt;
 
-&lt;p&gt;To stop receiving invoices automatically, please remove your email address(s) from this field and click ‘Save’.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!</summary></entry><entry><title type="html">Show original price &amp;amp; order discounts in your Shopify invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice.html" rel="alternate" type="text/html" title="Show original price &amp; order discounts in your Shopify invoices" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/discounts-in-invoice.html">&lt;p&gt;We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/price-before-discounts.png&quot; alt=&quot;an image alt text&quot; title=&quot;Show original price of product (price before discounts)&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;show-original-price-of-product-price-before-discounts&quot;&gt;Show original price of product (price before discounts)&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Product Details’ section of this page.&lt;/li&gt;
-  &lt;li&gt;Enable the checkbox labelled ‘Price before discounts’&lt;/li&gt;
-  &lt;li&gt;Your Invoice Preview will automatically update to show the original price (before discounts) above the discounted price.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;show-discount-percentage-applicable-on-each-product&quot;&gt;Show discount percentage applicable on each product&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Product Details’ section of this page.&lt;/li&gt;
-  &lt;li&gt;Enable the checkbox labelled ‘Discount percentage’&lt;/li&gt;
-  &lt;li&gt;Your Invoice Preview will automatically update to show the total applied discount rate in a column next to the unit price.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/discount-code-amount.png&quot; alt=&quot;an image alt text&quot; title=&quot;Show discounts amount as a subtotal&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;show-discount-code-used&quot;&gt;Show discount code used&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Invoice Details’ section of this page.&lt;/li&gt;
-  &lt;li&gt;Enable the checkbox labelled ‘Discount Code’ in the ‘Order’ subsection.&lt;/li&gt;
-  &lt;li&gt;Your Invoice Preview will automatically update to show the discount used for the order in the left side underneath the list of items.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;
-By default, all discounts applied on your products and orders are split &amp;amp; shown at each individual product. But you can also choose to show your order discounts as a separate amount above the ‘Subtotal’ amount of your invoice.&lt;/p&gt;
-
-&lt;h4 id=&quot;show-discount-code-used-1&quot;&gt;Show discount code used&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Invoice Design’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;Click on ‘Invoice Details’ section of this page.&lt;/li&gt;
-  &lt;li&gt;Enable the checkbox labelled ‘Show discount amount separately’ in the ‘Discounts’ subsection.&lt;/li&gt;
-  &lt;li&gt;Your Invoice Preview will automatically update to show all order-level applicable discounts as a separate amount in the ‘Totals’ section of your invoice.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">We’ve added plenty of settings in Invoice Falcon for you to show important details on your invoice when you have a discount on the order. In this article, we’ll walk you through the most important ones -</summary></entry></feed>
+&lt;p&gt;To stop receiving invoices automatically, please remove your email address(s) from this field and click ‘Save’.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Send Invoices&quot;]" /><summary type="html">With Invoice Falcon, you can get a PDF invoice for every order on your store automatically. Use this feature if you’d like to create an archive of invoices for all orders in your mail inbox on your store as it grows!</summary></entry></feed>
