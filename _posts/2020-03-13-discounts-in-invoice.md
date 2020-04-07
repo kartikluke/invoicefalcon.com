@@ -39,7 +39,7 @@ We've added plenty of settings in Invoice Falcon for you to show important detai
 <br/>
 By default, all discounts applied on your products and orders are split & shown at each individual product. But you can also choose to show your order discounts as a separate amount above the 'Subtotal' amount of your invoice.
 
-#### Show discount code used
+#### Show discount amount as a separate subtotal
 1. Click on 'Invoice Design' in the left menu bar.
 2. Click on 'Invoice Details' section of this page.
 3. Enable the checkbox labelled 'Show discount amount separately' in the 'Discounts' subsection.
