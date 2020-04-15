@@ -18,9 +18,9 @@ Enter or update the address you'd like to receive replies to and click 'Save' ri
 <br/>
 **<u>Why are my emails sent from invoices@invoicefalcon.com?</u>**
 <br/>
-We did have settings in Invoice Falcon earlier to send emails from your own address, but unfortunately we had to disable this because our systems and email provider account were being marked as spam since it was sending emails from multiple addresses (on behalf of many users). 
+If you are on the Pay-as-you-go plan, emails will be sent from invoices@invoicefalcon.com, but all replies to your email will be forwarded to the email address you specified in the Email - Reply-to address above.
 
-As mentioned above, while all emails will be sent from invoices@invoicefalcon.com, when a customer replies to your email by clicking "Reply", the reply will be sent to your reply-to address mentioned in this field.
+To send emails from your own address, please subscribe to the Superhero or Ultimate plan.
 
 
 <br/>
