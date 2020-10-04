@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-15T20:47:55-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-04T16:09:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Invoice Falcon</title><subtitle>Beautiful, professional invoices. Sent automatically.
 </subtitle><author><name>622 Solutions</name></author><entry><title type="html">Change the address format in your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/05/12/shopify-invoice-address-format.html" rel="alternate" type="text/html" title="Change the address format in your invoice" /><published>2020-05-12T00:00:00-04:00</published><updated>2020-05-12T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/05/12/shopify-invoice-address-format</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/05/12/shopify-invoice-address-format.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. Scroll down till you find the ‘Address Template’ section, where you’ll find a field that looks like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/address-format.png&quot; alt=&quot;an image alt text&quot; title=&quot;Set up your address template&quot; /&gt;&lt;/p&gt;
@@ -85,43 +85,7 @@ To add your logo to the invoice, click on ‘Upload Image’ and select the imag
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;u&gt;Remove your logo&lt;/u&gt;&lt;/strong&gt;
 &lt;br /&gt;
-To remove your logo, click ‘Remove Logo’. This will remove the logo and your existing documents will be updated automatically to remove it.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Logo section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Collect payments for unpaid invoices with Stripe</title><link href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" rel="alternate" type="text/html" title="Collect payments for unpaid invoices with Stripe" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/collect-payments-stripe</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html">&lt;p&gt;With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!&lt;/p&gt;
-
-&lt;p&gt;To send an email with a payment link for an invoice, please follow the steps below -&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;connect-invoice-falcon-to-your-stripe-account&quot;&gt;Connect Invoice Falcon to your Stripe account&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-stripe.png&quot; alt=&quot;an image alt text&quot; title=&quot;Connect Invoice Falcon to your Stripe account&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on ‘Collect Payments’ in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp;amp; send a payment link.&lt;/li&gt;
-  &lt;li&gt;In a separate tab, head over to your Stripe dashboard by clicking on this link - &lt;a href=&quot;https://dashboard.stripe.com&quot;&gt;Stripe Dashboard&lt;/a&gt; (or alternatively you can copy this link too - https://dashboard.stripe.com)&lt;/li&gt;
-  &lt;li&gt;Click on ‘Developers’ -&amp;gt; ‘API Keys’ in the left menu bar.&lt;/li&gt;
-  &lt;li&gt;On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.&lt;/li&gt;
-  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;send-an-email-with-a-payment-link&quot;&gt;Send an email with a payment link&lt;/h4&gt;
-
-&lt;p&gt;Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send email with a payment link&quot; /&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
-  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
-  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
-  &lt;li&gt;Click ‘Send’ -&amp;gt; ‘Review &amp;amp; Send’ from the dropdown&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;enable&lt;/b&gt; the checkbox labelled ‘Send email with payment link’.&lt;/li&gt;
-  &lt;li&gt;Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</summary></entry><entry><title type="html">Send payment reminders for unpaid invoices automatically</title><link href="http://localhost:4000/payments/2020/03/20/payment-reminders.html" rel="alternate" type="text/html" title="Send payment reminders for unpaid invoices automatically" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/payment-reminders</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/payment-reminders.html">&lt;p&gt;Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.&lt;/p&gt;
+To remove your logo, click ‘Remove Logo’. This will remove the logo and your existing documents will be updated automatically to remove it.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Logo section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Send payment reminders for unpaid invoices automatically</title><link href="http://localhost:4000/payments/2020/03/20/payment-reminders.html" rel="alternate" type="text/html" title="Send payment reminders for unpaid invoices automatically" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/payment-reminders</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/payment-reminders.html">&lt;p&gt;Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.&lt;/p&gt;
 
 &lt;p&gt;In this article, we’ve outlined the settings available to you to send a payment reminder email to your customer.&lt;/p&gt;
 
@@ -209,7 +173,43 @@ Here, you can set how often the reminder email should be sent by entering a cert
 
 &lt;p&gt;Enable/disable this setting to show a Stripe payment link in all reminder emails sent to your customers. Please note that this feature requires a Stripe account connected to Invoice Falcon.&lt;/p&gt;
 
-&lt;p&gt;After enabling this setting, a snippet of code needs to be added to your reminder email template. Please see ‘#2 - Add your reminder email template’ section above to add the required snippet to your template.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.</summary></entry><entry><title type="html">Edit an invoice to update its details</title><link href="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html" rel="alternate" type="text/html" title="Edit an invoice to update its details" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/20/edit-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html">&lt;h4 id=&quot;1-start-editing-an-invoice&quot;&gt;1. Start editing an invoice&lt;/h4&gt;
+&lt;p&gt;After enabling this setting, a snippet of code needs to be added to your reminder email template. Please see ‘#2 - Add your reminder email template’ section above to add the required snippet to your template.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">Are you sending invoices to your customers with payment terms or a due date? Now, with Invoice Falcon, you can send payment reminder emails automatically for each invoice to your customers. You can choose to send the reminder every few days until the payment is made, or after the due date lapses. Set the reminders and forget it; Invoice Falcon will ensure that the emails are sent &amp;amp; that you get your payments on time.</summary></entry><entry><title type="html">Collect payments for unpaid invoices with Stripe</title><link href="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html" rel="alternate" type="text/html" title="Collect payments for unpaid invoices with Stripe" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/payments/2020/03/20/collect-payments-stripe</id><content type="html" xml:base="http://localhost:4000/payments/2020/03/20/collect-payments-stripe.html">&lt;p&gt;With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!&lt;/p&gt;
+
+&lt;p&gt;To send an email with a payment link for an invoice, please follow the steps below -&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;connect-invoice-falcon-to-your-stripe-account&quot;&gt;Connect Invoice Falcon to your Stripe account&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-stripe.png&quot; alt=&quot;an image alt text&quot; title=&quot;Connect Invoice Falcon to your Stripe account&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on ‘Collect Payments’ in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find 2 separate fields - one for your publishable key and another for your secret key. Both keys are required in order to create &amp;amp; send a payment link.&lt;/li&gt;
+  &lt;li&gt;In a separate tab, head over to your Stripe dashboard by clicking on this link - &lt;a href=&quot;https://dashboard.stripe.com&quot;&gt;Stripe Dashboard&lt;/a&gt; (or alternatively you can copy this link too - https://dashboard.stripe.com)&lt;/li&gt;
+  &lt;li&gt;Click on ‘Developers’ -&amp;gt; ‘API Keys’ in the left menu bar.&lt;/li&gt;
+  &lt;li&gt;On this page, you’ll find 2 keys listed in the ‘Standard Access’ section. Copy and paste both keys in the respective field in our app.&lt;/li&gt;
+  &lt;li&gt;Click ‘Save Changes’&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;send-an-email-with-a-payment-link&quot;&gt;Send an email with a payment link&lt;/h4&gt;
+
+&lt;p&gt;Now that you’ve successfully set up your Stripe account with our app, you can send an email with a payment link to your customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/payments/payment-email.png&quot; alt=&quot;an image alt text&quot; title=&quot;Send email with a payment link&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Invoices&lt;/strong&gt; tab in the left menu bar of our app.&lt;/li&gt;
+  &lt;li&gt;Here, you’ll find a list of all the orders from your Shopify store.&lt;/li&gt;
+  &lt;li&gt;Once you’ve found the order you’re looking for, click on the blue highlighted order name to generate the invoice for that order. This will redirect you to the Invoice Preview page, where you can review the invoice.&lt;/li&gt;
+  &lt;li&gt;Click ‘Send’ -&amp;gt; ‘Review &amp;amp; Send’ from the dropdown&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;enable&lt;/b&gt; the checkbox labelled ‘Send email with payment link’.&lt;/li&gt;
+  &lt;li&gt;Review your email and click ‘Send Invoice’ to send the invoice with the payment link to your customer!&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Payments&quot;]" /><summary type="html">With Invoice Falcon, you can collect payments for any of your unpaid or due invoices with Stripe. Send an email to your customer with a payment link that takes them to a checkout on your Stripe account. As soon as they make a payment, you’ll be notified of it via email. And the best part - we do not collect the amount on your behalf; any payments made by your customers goes directly to your Stripe account!</summary></entry><entry><title type="html">Edit an invoice to update its details</title><link href="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html" rel="alternate" type="text/html" title="Edit an invoice to update its details" /><published>2020-03-20T00:00:00-04:00</published><updated>2020-03-20T00:00:00-04:00</updated><id>http://localhost:4000/create%20invoices/2020/03/20/edit-invoice</id><content type="html" xml:base="http://localhost:4000/create%20invoices/2020/03/20/edit-invoice.html">&lt;h4 id=&quot;1-start-editing-an-invoice&quot;&gt;1. Start editing an invoice&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/edit-invoice/edit-button.png&quot; alt=&quot;an image alt text&quot; title=&quot;Edit button&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
@@ -413,27 +413,37 @@ Enable the checkbox labelled ‘Product image’ on this page. If the product is
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Product Details section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Add a note for tax exemption to your invoices</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html" rel="alternate" type="text/html" title="Add a note for tax exemption to your invoices" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/tax-exemption-message.html">&lt;p&gt;In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.&lt;/p&gt;
-
-&lt;p&gt;For example, in France, a business may need to place a message like this - ‘Ce magasin a choisi le régime de la franchise des petites entreprises,par conséquent,nous ne facturons pas de taxes’ (Translation - ‘This store has chosen the small business franchise regime, therefore we do not charge taxes’)&lt;/p&gt;
-
-&lt;p&gt;With Invoice Falcon, you can set this up in just a few simple clicks. Not only can you use this for your message related to tax exemption, &lt;b&gt;you can also use it to add a single line message to your customers.&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Tax Compliance&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/assets/img/design-invoice/footer-message.png&quot; alt=&quot;an image alt text&quot; title=&quot;Add a note for tax exemption to your invoices&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;u&gt;Invoice Footer Message&lt;/u&gt;&lt;/strong&gt;
-&lt;br /&gt;
-Enter your note for tax exemption in this field. Please note that this section does not accept multi-line paragraphs; it is best suited for a single line note that you’d like your customers to know about.&lt;/p&gt;
-
-&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">In some countries, depending on the size of your business, it may be required that you will need to mention that your prices are exempt of taxes in your invoice.</summary></entry><entry><title type="html">Remove Invoice Falcon watermark from your invoice &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html" rel="alternate" type="text/html" title="Remove Invoice Falcon watermark from your invoice &amp; emails" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Remove Watermark&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Design in the left menu bar of our application &amp;amp; click on Product Details section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Remove Invoice Falcon watermark from your invoice &amp;amp; emails</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html" rel="alternate" type="text/html" title="Remove Invoice Falcon watermark from your invoice &amp; emails" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-watermark.html">&lt;p&gt;Click on &lt;strong&gt;Invoice Settings&lt;/strong&gt; in the left menu bar of our application &amp;amp; look for the &lt;strong&gt;Remove Watermark&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-watermark.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove watermark from your invoice &amp;amp; emails.&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Disable the checkbox labelled ‘Show Invoice Falcon watermark in invoices &amp;amp; emails’ and click ‘Save’. After you click ‘Save’, your invoices will be updated automatically to reflect this change.&lt;/p&gt;
 
-&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - This feature is available only on Pay-as-you-go, Superhero, Ultimate &amp;amp; Enterprise plans.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Remove Watermark section in this page. You’ll see a few settings that look like this -</summary></entry></feed>
+&lt;p&gt;&lt;i&gt;Note&lt;/i&gt; - This feature is available only on Pay-as-you-go, Superhero, Ultimate &amp;amp; Enterprise plans.&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">Click on Invoice Settings in the left menu bar of our application &amp;amp; look for the Remove Watermark section in this page. You’ll see a few settings that look like this -</summary></entry><entry><title type="html">Remove shipping &amp;amp; billing addresses from your invoice</title><link href="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html" rel="alternate" type="text/html" title="Remove shipping &amp; billing addresses from your invoice" /><published>2020-03-13T00:00:00-04:00</published><updated>2020-03-13T00:00:00-04:00</updated><id>http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice</id><content type="html" xml:base="http://localhost:4000/design%20your%20invoice/2020/03/13/remove-address-from-invoice.html">&lt;p&gt;By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Invoice Design&lt;/strong&gt; in the left menu bar of our application &amp;amp; click on &lt;strong&gt;Supplier, Shipping &amp;amp; Billing Addresses&lt;/strong&gt; section in this page. You’ll see a few settings that look like this -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/design-invoice/remove-address.png&quot; alt=&quot;an image alt text&quot; title=&quot;Remove shipping &amp;amp; billing address from invoice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide your address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your store’s address from the invoice, disable the checkbox labelled ‘Your Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Shipping address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s shipping address from the invoice, disable the checkbox labelled ‘Shipping Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;u&gt;Show/hide Billing address&lt;/u&gt;&lt;/strong&gt;
+&lt;br /&gt;
+To hide your customer’s billing address from the invoice, disable the checkbox labelled ‘Billing Address’ in the ‘Addresses in Invoice’ subsection. Re-enable this box if you need to show this address again.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to click ‘Save Changes’ after you’re done! Your existing invoices will be automatically updated to include the changes you made here the next time it’s printed, sent or downloaded. :)&lt;/p&gt;</content><author><name>622 Solutions</name></author><category term="[&quot;Design your invoice&quot;]" /><summary type="html">By default, Invoice Falcon generates invoices with 3 addresses in the top section of the invoice. The first is your store’s address &amp;amp; the other two are the customer’s shipping and billing addresses. In this article, we’ll walk you through how you can disable any of these addresses from being shown on the invoice.</summary></entry></feed>
