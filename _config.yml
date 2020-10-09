@@ -9,9 +9,6 @@ header_pages:
   - index.md
   - help.md
 footer_links:
-  faq:
-    link: /faq.html
-    title: Frequently Asked Questions
   privacy:
     link: /policy.html
     title: Privacy Policy
