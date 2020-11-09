@@ -4,7 +4,7 @@ email: invoicefalcon.shopify@gmail.com
 description: >
   Beautiful, professional invoices. Sent automatically.
 baseurl: ''
-url: 'invoicefalcon.com'
+url: 'https://invoicefalcon.com'
 header_pages:
   - index.md
   - help.md
