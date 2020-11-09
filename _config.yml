@@ -5,6 +5,11 @@ description: >
   Beautiful, professional invoices. Sent automatically.
 baseurl: ''
 url: 'https://invoicefalcon.com'
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
 header_pages:
   - index.md
   - help.md
