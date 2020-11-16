@@ -12,10 +12,12 @@ In this article, we'll walk you through multiple ways you can send invoices for 
 
 <br/>
 1. Click on 'Invoices' in the left menu bar of our application.
-2. Click on the 'Date Range' button and select the date range for which you'd like to filter your orders.
-3. You can also click on 'Financial Status' and select the order statuses to filter your orders further.
-4. Next click on the 'Bulk Send' button after the filters have been applied.
-5. Our system will receive the request and then send the invoices to your customers for all orders matching your selection.
+2. Click ‘+ New Invoice’
+3. Select ‘Invoice for Shopify Order’
+4. Click on the 'Date Range' button and select the date range for which you'd like to filter your orders.
+5. You can also click on 'Financial Status' and select the order statuses to filter your orders further.
+6. Next click on the 'Bulk Send' button after the filters have been applied.
+7. Our system will receive the request and then send the invoices to your customers for all orders matching your selection.
 
 <br/>
 <hr/>
@@ -26,9 +28,11 @@ In this article, we'll walk you through multiple ways you can send invoices for 
 
 <br/>
 1. Click on 'Invoices' in the left menu bar of our application.
-2. Select two or more orders in the list of orders.
-3. Next, click on the 'Send Invoices' button.
-4. Our system will receive the request and then send the invoices to your customers for all orders matching your selection.
+2. Click ‘+ New Invoice’
+3. Select ‘Invoice for Shopify Order’
+4. Select two or more orders in the list of orders.
+5. Next, click on the 'Send Invoices' button.
+6. Our system will receive the request and then send the invoices to your customers for all orders matching your selection.
 
 <br/>
 <hr/>
