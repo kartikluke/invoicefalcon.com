@@ -26,3 +26,5 @@ defaults:
       values:
         image: true
 theme: minima
+plugins:
+  - jekyll-seo-tag
