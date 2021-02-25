@@ -7,7 +7,7 @@ teaser: "Show your VAT, ABN or any business related registration numbers to your
 
 To comply with regulations in your region/country, it may be required that your VAT, ABN or a specific type of tax/business registration number should be shown on all your invoices. With Invoice Falcon, our goal is to make sure your invoices are fully compliant and in this post, we'll show you how to set that up!
 
-Click on **Invoice Design** in the left menu bar of our application & click on **Tax Compliance** section in this page. You'll see a few settings that look like this -
+Click on **Invoice Design** in the left menu bar of our application & click on **Tax & prices** section in this page. You'll see a few settings that look like this -
 
 ![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/tax-number.png "Tax registration number in Invoice Falcon")
 
