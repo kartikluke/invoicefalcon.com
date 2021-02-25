@@ -5,7 +5,7 @@ category: [Design your invoice]
 teaser: "Add a default due date for all unpaid invoices, calculated based on the number of days by which your customer should pay."
 ---
 
-Click on **Invoice Settings** in the left menu bar of our application & look for the **Default due date** section in this page. You'll see a few settings that look like this -
+Click on **Design Invoice** in the left menu bar of our application & look for the **Due date** section in this page. You'll see a few settings that look like this -
 
 ![an image alt text]({{ site.baseurl }}/assets/img/design-invoice/default-due.png "Set a default due date for all unpaid invoices")
 

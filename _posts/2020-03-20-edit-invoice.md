@@ -9,7 +9,7 @@ teaser: "Need to make a correction in the invoice? Learn how you can update any 
 ![an image alt text]({{ site.baseurl }}/assets/img/edit-invoice/edit-button.png "Edit button")
 
 <br/>
-To begin editing or making changes to an invoice, click on the purple 'Edit Document' button when you are viewing an invoice in the Invoice Preview page. This button will be visible on the right side of your screen as shown above, and it will take you to our Document Editor page.
+To begin editing or making changes to an invoice, click on the 'Edit' button when you are viewing an invoice in the Invoice Preview page. This button will be visible on the center of your screen as shown above, and it will take you to our Document Editor page.
 
 <br/>
 <hr/>

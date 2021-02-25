@@ -17,16 +17,6 @@ Click on **Invoice Design** in the left menu bar of our application & click on *
 For example, if an order on your store is labelled/identified as "IFS-1080-EN", then the default invoice number will also be "IFS-1080-EN".
 <br/>
 <br/>
-**<u>Use order number instead of order name</u>**
-<br/>
-Shopify uses two separate identifiers for every order on your store. One of them is order name, which is the label/identifier to your customers and the other is order number, which Shopify tracks and is known only to you.
-
-For example, if an order name is 'IFS-1080-EN', the order number is '1080'. (Please note that this might not be the case for your store.)
-
-As described above, Invoice Falcon uses the order name as the default invoice number for your invoices. If you'd like to use the order number as the invoice number, enable the checkbox labelled "Use order number instead of order name".
-
-<br/>
-<br/>
 **<u>Custom number sequence</u>**
 <br/>
 When you set up a custom numbering sequence, the invoices will have a number that are completely different from the order names/numbers for which they are created.
