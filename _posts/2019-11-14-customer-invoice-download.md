@@ -23,7 +23,7 @@ Look for this line of code in the file - `<td data-label="{{ 'customer.orders.to
 
 Press Enter and right underneath this line, add the below snippet of code to the file -
 
-`<td><a href='https://app.invoicefalcon.com/pdfs/{{ "{{ order.id " }}}}.pdf?shopify_domain=invoicefalconstore.myshopify.com&uuid={{ "{{ order_number " }}}}'>Download Invoice</a></td>`
+`<td><a href='https://app.invoicefalcon.com/pdfs/{{ "{{ order.id " }}}}.pdf?shopify_domain=invoicefalconstore.myshopify.com&uuid={{ "{{ order.order_number " }}}}'>Download Invoice</a></td>`
 
 Note - _Replace 'invoicefalconstore.myshopify.com' with your store's myshopify link._  
 
